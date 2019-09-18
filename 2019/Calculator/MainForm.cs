@@ -15,12 +15,12 @@ namespace Bmstu.IU6.Calculator
     /// </summary>
     public partial class MainForm : Form
     {
-        private int _x;
+        private double _x;
 
         /// <summary>
         /// Первый операнд
         /// </summary>
-        private int x
+        private double x
         {
             get
             {
@@ -37,7 +37,7 @@ namespace Bmstu.IU6.Calculator
         /// <summary>
         /// Второй операнд
         /// </summary>
-        private int y;
+        private double y;
         /// <summary>
         /// Признак ввода нового числа
         /// </summary>
@@ -73,7 +73,7 @@ namespace Bmstu.IU6.Calculator
             // Определение тега кнопки
             string tag = (string)b.Tag;
             // Определение номера цифры
-            int digit = int.Parse(tag);
+            double digit = double.Parse(tag);
             // Вычисление 
             if (newNumber)
             {
@@ -178,8 +178,10 @@ namespace Bmstu.IU6.Calculator
             if (Clipboard.ContainsText())
             {
                 string s = Clipboard.GetText();
-                int n;
-                if (int.TryParse(s, out n))
+                double n;
+                n = 1 + 1.1;
+
+                if (double.TryParse(s, out n))
                 {
                     x = n;
                 }
