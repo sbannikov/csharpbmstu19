@@ -15,10 +15,24 @@ namespace Bmstu.IU6.Calculator
     /// </summary>
     public partial class MainForm : Form
     {
+        private int _x;
+
         /// <summary>
         /// Первый операнд
         /// </summary>
-        private int x;
+        private int x
+        {
+            get
+            {
+                return _x;
+            }
+            set
+            {
+                _x = value;
+                // Для индикатора
+                indicator.Text = _x.ToString();
+            }
+        }
 
         /// <summary>
         /// Второй операнд
@@ -70,8 +84,6 @@ namespace Bmstu.IU6.Calculator
             {
                 x = 10 * x + digit;
             }
-            // Для индикатора
-            indicator.Text = x.ToString();
         }
 
         private void buttonPlus_Click(object sender, EventArgs e)
@@ -101,8 +113,6 @@ namespace Bmstu.IU6.Calculator
                     default:
                         break;
                 }
-                // Для индикатора
-                indicator.Text = x.ToString();
             }
             catch (DivideByZeroException)
             {
@@ -112,6 +122,71 @@ namespace Bmstu.IU6.Calculator
             {
                 string m = $"{ex.GetType().FullName}: {ex.Message} {ex.StackTrace}";
                 MessageBox.Show(m, "Калькулятор", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        /// <summary>
+        /// Выход из программы
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void QuitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        /// <summary>
+        /// Копирование в буфер обмена
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void CopyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(indicator.Text))
+            {
+                Clipboard.SetText(indicator.Text);
+            }
+        }
+
+        /// <summary>
+        /// Пример реализации int.TryParse
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        private bool MyTryParse (string s, out int n)
+        {
+            try
+            {
+                n = int.Parse(s);
+                return true;
+            }
+            catch
+            {
+                n = 0;
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Вставка из буфера обмена
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PasteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Clipboard.ContainsText())
+            {
+                string s = Clipboard.GetText();
+                int n;
+                if (int.TryParse(s, out n))
+                {
+                    x = n;
+                }
+                else
+                {
+                    MessageBox.Show("Ожидается целое число");
+                }
             }
         }
     }
