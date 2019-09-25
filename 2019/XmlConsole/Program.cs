@@ -29,6 +29,7 @@ namespace XmlConsole
             };
 
             s.Save(FileName);
+            s.JsonString(@"c:\json.json");
 
             Sensor s1 = Sensor.Load(@"C:\TEST1.XML");
 

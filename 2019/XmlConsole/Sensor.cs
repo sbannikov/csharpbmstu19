@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
 
 namespace XmlConsole
 {
@@ -14,6 +16,7 @@ namespace XmlConsole
     [XmlRoot(
         ElementName = "ThermoCouple",
         Namespace = "http://www.bmstu.ru")]
+    [DataContract()]
     public class Sensor
     {
         private int number;
@@ -22,6 +25,7 @@ namespace XmlConsole
         /// Номер датчика
         /// </summary>
         [XmlAttribute(AttributeName = "ID")]
+        [DataMember(Name = "ID")]
         public int Number
         {
             get
@@ -42,13 +46,16 @@ namespace XmlConsole
         /// Массив данных
         /// </summary>
         [XmlElement()]
+        [DataMember()]
         public Data[] Data { get; set; }
 
+        [DataMember(Name = "SensorType")]
         public SensorType SType { get; set; }
 
         /// <summary>
         /// Описание
         /// </summary>
+        [DataMember()]
         public string Description { get; set; }
 
         public override string ToString()
@@ -75,6 +82,15 @@ namespace XmlConsole
             using (XmlWriter wrt = XmlWriter.Create(name, settings))
             {
                 s.Serialize(wrt, this);
+            }
+        }
+
+        public void JsonString(string name)
+        {
+            var s = new DataContractJsonSerializer(GetType());
+            using (var wrt = System.IO.File.Create(name))
+            {
+                s.WriteObject(wrt, this);
             }
         }
     }
