@@ -8,11 +8,18 @@ namespace XmlConsole
 {
     class Program
     {
+        /// <summary>
+        /// Имя XML-файла
+        /// </summary>
         private const string FileName = @"C:\TEST.XML";
 
+        /// <summary>
+        /// Главная функция
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
-            // Список
+            // Список (пример конструирования объекта из шаблона класса)
             var list = new System.Collections.Generic.List<string>();
 
             // Создание объекта с использованием инициализатора
@@ -28,10 +35,14 @@ namespace XmlConsole
                 }
             };
 
+            // Сохранение в XML
             s.Save(FileName);
+
+            // Сохранение в JSON
             s.JsonString(@"c:\json.json");
 
-            Sensor s1 = Sensor.Load(@"C:\TEST1.XML");
+            // Чтение из XML
+            Sensor s1 = Sensor.Load(FileName);
 
             Console.WriteLine(s1);
 

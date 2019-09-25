@@ -12,6 +12,9 @@ namespace XmlConsole
     /// </summary>
     public class Data
     {
+        /// <summary>
+        /// Значение
+        /// </summary>
         public double Value { get; set; }
 
         /// <summary>

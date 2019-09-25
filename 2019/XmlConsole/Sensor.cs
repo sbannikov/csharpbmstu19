@@ -13,16 +13,17 @@ namespace XmlConsole
     /// <summary>
     /// Датчик
     /// </summary>
-    [XmlRoot(
-        ElementName = "ThermoCouple",
-        Namespace = "http://www.bmstu.ru")]
+    [XmlRoot(ElementName = "ThermoCouple", Namespace = "http://www.bmstu.ru")]
     [DataContract()]
     public class Sensor
     {
+        /// <summary>
+        /// Номер датчика (поле)
+        /// </summary>
         private int number;
 
         /// <summary>
-        /// Номер датчика
+        /// Номер датчика - пример реализации свойства
         /// </summary>
         [XmlAttribute(AttributeName = "ID")]
         [DataMember(Name = "ID")]
@@ -58,11 +59,20 @@ namespace XmlConsole
         [DataMember()]
         public string Description { get; set; }
 
+        /// <summary>
+        /// Строковое представление объекта
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return $"Датчик {Number}";
         }
 
+        /// <summary>
+        /// Загрузка объекта из XML-файла
+        /// </summary>
+        /// <param name="name">Имя XML-файла</param>
+        /// <returns></returns>
         public static Sensor Load(string name)
         {
             XmlSerializer s = new XmlSerializer(typeof(Sensor));
@@ -72,6 +82,10 @@ namespace XmlConsole
             }
         }
 
+        /// <summary>
+        /// Сохранение объекта в XML-файл
+        /// </summary>
+        /// <param name="name">Имя XML-файла</param>
         public void Save(string name)
         {
             XmlSerializer s = new XmlSerializer(GetType());
@@ -85,6 +99,10 @@ namespace XmlConsole
             }
         }
 
+        /// <summary>
+        /// Сохранение объекта в JSON-файл
+        /// </summary>
+        /// <param name="name">Имя JSON-файла</param>
         public void JsonString(string name)
         {
             var s = new DataContractJsonSerializer(GetType());
