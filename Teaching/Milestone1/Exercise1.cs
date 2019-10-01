@@ -42,9 +42,9 @@ namespace Bmstu.IU6.Teaching
         }
 
         /// <summary>
-        /// Генерация уникальный заданий
+        /// Генерация первого задания
         /// </summary>
-        public void Run()
+        public void Run1()
         {
             // Предварительная очистка списка
             db.Exercise1.RemoveRange(db.Exercise1.ToList());
@@ -58,7 +58,7 @@ namespace Bmstu.IU6.Teaching
             // Формирование задания для каждого студента
             foreach (var student in db.Students.OrderBy(a => a.Family).ToList())
             {
-                Console.WriteLine(student.Family);
+                Console.Write(".");
 
                 // Список сотрудников
                 List<int> characters = randoms(roleCount, characterCount);
@@ -92,31 +92,75 @@ namespace Bmstu.IU6.Teaching
                     db.Exercise1.Add(e1);
                 }
             }
+            // Сохранить изменения
             db.SaveChanges();
+
+            Console.WriteLine();
+        }
+
+        /// <summary>
+        /// Генерация выходного файла
+        /// </summary>
+        public void Run()
+        {
+            // Список номеров строк
+            List<int> rows = db.CodeRows.Select(a => a.Row).OrderBy(a => a).Distinct().ToList();
 
             // Формирование выходного CSV-файла
             using (var wrt = new System.IO.StreamWriter(@"iu6.txt", false))
             {
                 string s;
                 s = "Студент;Группа;Код;";
+
+                // Задание 1
                 for (int i = 1; i <= 6; i++)
                 {
                     s += $"И{i};Т{i};К{i}1;К{i}2;";
                 }
+                // Задание 2
+                for (int i = 0; i < rows.Count(); i++)
+                {
+                    s += $"R{rows[i]};";
+                }
+
                 wrt.WriteLine(s);
 
                 // Формирование задания для каждого студента
                 foreach (var student in db.Students.OrderBy(a => a.Family).ToList())
                 {
+                    Console.Write(".");
+
+                    // Студент
                     s = $"{student.FullName};{student.Group};{student.Code};";
+
+                    // Задание 1
                     var list = db.Exercise1.Where(a => a.Student.ID == student.ID).OrderBy(a => a.Character.Name).ToList();
                     foreach (Storage.Exercise1 e in list)
                     {
                         s += $"{e.Character.Name};{e.Character.Number};{e.Ability1.Name};{e.Ability2.Name};";
                     }
+
+                    // Задание 2
+                    for (int i = 0; i < rows.Count(); i++)
+                    {
+                        // Номер строки кода
+                        int row = rows[i];
+                        // Количество вариантов
+                        int versions = db.CodeRows.Where(a => a.Row == row).Count();
+                        // Случайный выбор варианта
+                        int version = rnd.Next(1, versions + 1);
+                        // Загрузка варианта
+                        var code = db.CodeRows.Where(a => a.Row == row && a.Version == version).First();
+                        // Кавычки следует удвоить
+                        s += "\"" + code.Code.Replace("\"", "\"\"") + "\";";
+                    }
+
+                    // Запись строки
                     wrt.WriteLine(s);
                 }
             }
+
+            Console.WriteLine();
         }
     }
 }

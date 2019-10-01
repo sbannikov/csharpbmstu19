@@ -34,6 +34,11 @@ namespace Bmstu.IU6.Teaching.Storage
         public virtual DbSet<Character> Characters { get; set; }
 
         /// <summary>
+        /// Строки кода для всех заданий
+        /// </summary>
+        public virtual DbSet<CodeRow>  CodeRows{ get; set; }
+
+        /// <summary>
         /// Задание № 1
         /// </summary>
         public virtual DbSet<Exercise1> Exercise1 { get; set; }
