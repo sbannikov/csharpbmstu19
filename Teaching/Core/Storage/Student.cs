@@ -22,11 +22,37 @@ namespace Bmstu.IU6.Teaching.Storage
         /// Группа
         /// </summary>
         [MaxLength(16)]
-        public string Group{ get; set; }
+        public string Group { get; set; }
 
         /// <summary>
         /// Личное дело
         /// </summary>
         public string FileNumber { get; set; }
+
+        /// <summary>
+        /// Фамилия и имя
+        /// </summary>
+        public string FullName
+        {
+            get
+            {
+                return $"{Family} {Name}";
+            }
+        }
+
+        /// <summary>
+        /// Номер личного дела для генерации штрих-кода
+        /// </summary>
+        public string Code
+        {
+            get
+            {
+                string s = FileNumber;
+                // Замена некорректных символов
+                s = s.Replace("И", "I");
+                s = s.Replace("У", "U");
+                return s;
+            }
+        }
     }
 }
