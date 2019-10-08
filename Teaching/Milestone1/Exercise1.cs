@@ -44,10 +44,13 @@ namespace Bmstu.IU6.Teaching
         /// <summary>
         /// Генерация первого задания
         /// </summary>
-        public void Run1()
+        public void Run1(bool init)
         {
-            // Предварительная очистка списка
-            db.Exercise1.RemoveRange(db.Exercise1.ToList());
+            if (init)
+            {
+                // Предварительная очистка списка
+                db.Exercise1.RemoveRange(db.Exercise1.ToList());
+            }
 
             // Общее количество сотрудников
             int characterCount = db.Characters.Count();
@@ -56,7 +59,11 @@ namespace Bmstu.IU6.Teaching
             int roleCount = db.Roles.Count();
 
             // Формирование задания для каждого студента
-            foreach (var student in db.Students.OrderBy(a => a.Family).ToList())
+            foreach (var student in db.Students.
+                Where(a => a.Mark).
+                OrderBy(a => a.Family).
+                ThenBy(a => a.Name).
+                ToList())
             {
                 Console.Write(".");
 
@@ -107,8 +114,9 @@ namespace Bmstu.IU6.Teaching
             List<int> rows = db.CodeRows.Select(a => a.Row).OrderBy(a => a).Distinct().ToList();
 
             // Формирование выходного CSV-файла
-            using (var wrt = new System.IO.StreamWriter(@"iu6.txt", false))
+            using (var wrt = new System.IO.StreamWriter(@"iu6-02.txt", false))
             {
+                // Формирование заголовка файла
                 string s;
                 s = "Студент;Группа;Код;";
 
@@ -126,7 +134,7 @@ namespace Bmstu.IU6.Teaching
                 wrt.WriteLine(s);
 
                 // Формирование задания для каждого студента
-                foreach (var student in db.Students.OrderBy(a => a.Family).ToList())
+                foreach (var student in db.Students.Where(a => a.Mark).OrderBy(a => a.Family).ThenBy(a => a.Name).ToList())
                 {
                     Console.Write(".");
 

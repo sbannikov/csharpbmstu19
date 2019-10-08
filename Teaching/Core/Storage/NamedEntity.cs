@@ -17,6 +17,7 @@ namespace Bmstu.IU6.Teaching.Storage
         /// Название
         /// </summary>
         [MaxLength(255)]
+        [Required()]
         [DisplayName("Название")]
         public string Name { get; set; }
 

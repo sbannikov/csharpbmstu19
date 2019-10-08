@@ -16,18 +16,27 @@ namespace Bmstu.IU6.Teaching.Storage
         /// Фамилия
         /// </summary>
         [MaxLength(255)]
+        [Required()]
         public string Family { get; set; }
 
         /// <summary>
         /// Группа
         /// </summary>
         [MaxLength(16)]
+        [Required()]
         public string Group { get; set; }
 
         /// <summary>
         /// Личное дело
         /// </summary>
+        [MaxLength(16)]
+        [Required()]
         public string FileNumber { get; set; }
+
+        /// <summary>
+        /// Пометка для обработки
+        /// </summary>
+        public bool Mark { get; set; }
 
         /// <summary>
         /// Фамилия и имя

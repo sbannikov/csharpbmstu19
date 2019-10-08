@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 public class Natural
 {
     private int number;
@@ -39,7 +38,7 @@ public class Natural
         return e;
     }
 
-    // Проверка числа на чётное
+    // Проверка числа на нечётность (true - нечётное, false - чётное)
     public bool IsOdd()
     {
         return (number % 2) != 0;
