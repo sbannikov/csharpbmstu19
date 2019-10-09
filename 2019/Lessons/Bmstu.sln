@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWeb", "CalcWeb\CalcWeb.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlConsole", "XmlConsole\XmlConsole.csproj", "{1D708664-F17C-4745-B912-83791EB7DE6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampeAdoNet", "SampeAdoNet\SampeAdoNet.csproj", "{219090BC-1A23-4655-A12C-3BC47392544E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1D708664-F17C-4745-B912-83791EB7DE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D708664-F17C-4745-B912-83791EB7DE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D708664-F17C-4745-B912-83791EB7DE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219090BC-1A23-4655-A12C-3BC47392544E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219090BC-1A23-4655-A12C-3BC47392544E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219090BC-1A23-4655-A12C-3BC47392544E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219090BC-1A23-4655-A12C-3BC47392544E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
