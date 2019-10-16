@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Calculator")]
-[assembly: AssemblyDescription("Калькулятор")]
+[assembly: AssemblyDescription("Калькулятор на базе Windows Forms")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("МГТУ им. Н. Э. Баумана")]
-[assembly: AssemblyProduct("Calculator")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyProduct("Учебный курс по выбору 'Разработка приложений на языке C#'")]
+[assembly: AssemblyCopyright("Copyright © Банников С.Н. 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

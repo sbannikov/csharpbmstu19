@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("XmlConsole")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Сериализация и десериализация данных в формате XML и JSON")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("XmlConsole")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("МГТУ им. Н. Э. Баумана")]
+[assembly: AssemblyProduct("Учебный курс по выбору 'Разработка приложений на языке C#'")]
+[assembly: AssemblyCopyright("Copyright © Банников С.Н. 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
