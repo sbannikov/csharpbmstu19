@@ -25,7 +25,7 @@ namespace MyService.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("3600000")]
         public int Interval {
             get {
                 return ((int)(this["Interval"]));

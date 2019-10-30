@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampeAdoNet", "SampeAdoNet\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyService", "MyService\MyService.csproj", "{5C6ABFF3-8F20-474A-8A30-319CB786BDF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApp", "ServiceApp\ServiceApp.csproj", "{577BBD7D-8E3D-4B52-A56D-DC70A89E1B83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5C6ABFF3-8F20-474A-8A30-319CB786BDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6ABFF3-8F20-474A-8A30-319CB786BDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6ABFF3-8F20-474A-8A30-319CB786BDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577BBD7D-8E3D-4B52-A56D-DC70A89E1B83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577BBD7D-8E3D-4B52-A56D-DC70A89E1B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577BBD7D-8E3D-4B52-A56D-DC70A89E1B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577BBD7D-8E3D-4B52-A56D-DC70A89E1B83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

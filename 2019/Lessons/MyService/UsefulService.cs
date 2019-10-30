@@ -22,6 +22,11 @@ namespace MyService
         /// </summary>
         System.Timers.Timer timer;
 
+        /// <summary>
+        /// Домик для сервиса
+        /// </summary>
+        System.ServiceModel.ServiceHost host;
+
         public UsefulService()
         {
             InitializeComponent();
@@ -39,6 +44,9 @@ namespace MyService
             timer = new System.Timers.Timer();
             timer.Interval = Properties.Settings.Default.Interval;
             timer.Elapsed += Timer_Elapsed;
+
+            // Хост
+            host = new System.ServiceModel.ServiceHost(new Calculation());
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -82,7 +90,15 @@ namespace MyService
         {
             string message;
             message = string.Format("{0}: {1}", ex.GetType().FullName, ex.Message);
-            EventLog.WriteEntry(message, EventLogEntryType.Error, (int)EventID.Exception);
+            // Проверка на интерактивный запуск
+            if (Environment.UserInteractive)
+            {
+                Console.WriteLine(message);
+            }
+            else
+            {
+                EventLog.WriteEntry(message, EventLogEntryType.Error, (int)EventID.Exception);
+            }
         }
 
         protected override void OnStart(string[] args)
@@ -92,6 +108,7 @@ namespace MyService
                 base.OnStart(args);
                 watcher.EnableRaisingEvents = true;
                 timer.Enabled = true;
+                host.Open();
                 EventLog.WriteEntry("Сервис запущен",
                     EventLogEntryType.Information,
                     (int)EventID.Start);
@@ -117,6 +134,7 @@ namespace MyService
                 base.OnStop();
                 watcher.EnableRaisingEvents = false;
                 timer.Enabled = false;
+                host.Close();
                 EventLog.WriteEntry("Сервис остановлен",
                     EventLogEntryType.Information,
                     (int)EventID.Stop);
@@ -134,6 +152,7 @@ namespace MyService
                 base.OnPause();
                 watcher.EnableRaisingEvents = false;
                 timer.Enabled = false;
+                host.Close();
                 EventLog.WriteEntry("Сервис приостановлен",
                     EventLogEntryType.Information,
                     (int)EventID.Pause);
@@ -151,6 +170,7 @@ namespace MyService
                 base.OnContinue();
                 watcher.EnableRaisingEvents = true;
                 timer.Enabled = true;
+                host.Open();
                 EventLog.WriteEntry("Сервис возобнолен",
                     EventLogEntryType.Information,
                     (int)EventID.Continue);
