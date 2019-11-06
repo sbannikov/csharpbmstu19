@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 using System.Text;
 
 namespace MyService
@@ -12,6 +13,8 @@ namespace MyService
     public interface ICalculation
     {
         [OperationContract()]
+        [WebGet(ResponseFormat = WebMessageFormat.Xml,
+            UriTemplate = "Plus/{sx}/{sy}")]
         Result Addition(string sx, string sy);
     }
 }

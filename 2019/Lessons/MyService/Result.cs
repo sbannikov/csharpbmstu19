@@ -43,5 +43,16 @@ namespace MyService
             Valid = false;
         }
 
+        /// <summary>
+        /// Конструктор по сообщению
+        /// </summary>
+        /// <param name="m">Сообщение</param>
+        public Result(string m)
+        {
+            Message = m;
+            Value = double.NaN;
+            Valid = false;
+        }
+
     }
 }

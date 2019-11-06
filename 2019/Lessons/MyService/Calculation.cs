@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Globalization;
 
 namespace MyService
 {
@@ -11,13 +12,21 @@ namespace MyService
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single,
         ConcurrencyMode = ConcurrencyMode.Single)]
     public class Calculation : ICalculation
-    {      
+    {
         public Result Addition(string sx, string sy)
         {
             try
             {
-                double x = double.Parse(sx);
-                double y = double.Parse(sy);
+                double x, y;
+                IFormatProvider format = CultureInfo.InvariantCulture;
+                if (!double.TryParse(sx, NumberStyles.Float, format, out x))
+                {
+                    return new Result($"Параметр sx задан некорректно, ожидается число: {sx}");
+                }
+                if (!double.TryParse(sy, NumberStyles.Float, format, out y))
+                {
+                    return new Result($"Параметр sy задан некорректно, ожидается число: {sy}");
+                }
                 return new Result(x + y);
             }
             catch (Exception ex)
