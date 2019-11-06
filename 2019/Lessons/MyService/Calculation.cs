@@ -27,6 +27,9 @@ namespace MyService
                 {
                     return new Result($"Параметр sy задан некорректно, ожидается число: {sy}");
                 }
+                // Задержка - имитируем бурную деятельность
+                System.Threading.Thread.Sleep(1000);
+
                 return new Result(x + y);
             }
             catch (Exception ex)

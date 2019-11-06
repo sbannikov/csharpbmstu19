@@ -13,7 +13,8 @@ namespace MyService
     public interface ICalculation
     {
         [OperationContract()]
-        [WebGet(ResponseFormat = WebMessageFormat.Xml,
+        [WebInvoke(Method = "GET",
+            ResponseFormat = WebMessageFormat.Xml,
             UriTemplate = "Plus/{sx}/{sy}")]
         Result Addition(string sx, string sy);
     }

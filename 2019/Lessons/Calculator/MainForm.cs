@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,7 +31,7 @@ namespace Bmstu.IU6.Calculator
             {
                 _x = value;
                 // Для индикатора
-                indicator.Text = _x.ToString();
+                indicator.Text = _x.ToString(CultureInfo.InvariantCulture);
             }
         }
 
@@ -105,7 +106,19 @@ namespace Bmstu.IU6.Calculator
                 switch (operation)
                 {
                     case Operation.Addition:
-                        x = x + y;
+                        // Вызов сервиса для сложения двух чисел
+                        Services.CalculationClient client = new Services.CalculationClient();
+                        
+                        // Прикладной таймаут вызова сервиса по умолчанию (1 мин)
+                        var ts = client.InnerChannel.OperationTimeout;
+
+                        // Задать таймаут вызова - 2 секунды
+                        client.InnerChannel.OperationTimeout = new TimeSpan(0, 0, 2);
+
+                        x = client.Addition(
+                            x.ToString(CultureInfo.InvariantCulture),
+                            y.ToString(CultureInfo.InvariantCulture)).Value;
+                        // x = x + y;
                         break;
                     case Operation.Division:
                         x = y / x;
@@ -154,7 +167,7 @@ namespace Bmstu.IU6.Calculator
         /// <param name="s"></param>
         /// <param name="n"></param>
         /// <returns></returns>
-        private bool MyTryParse (string s, out int n)
+        private bool MyTryParse(string s, out int n)
         {
             try
             {
@@ -181,13 +194,14 @@ namespace Bmstu.IU6.Calculator
                 double n;
                 n = 1 + 1.1;
 
-                if (double.TryParse(s, out n))
+                IFormatProvider format = CultureInfo.InvariantCulture;
+                if (double.TryParse(s, NumberStyles.Float, format, out n))
                 {
                     x = n;
                 }
                 else
                 {
-                    MessageBox.Show("Ожидается целое число");
+                    MessageBox.Show("Ожидается вещественное число");
                 }
             }
         }
