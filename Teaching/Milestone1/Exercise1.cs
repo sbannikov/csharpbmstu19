@@ -6,41 +6,8 @@ using System.Threading.Tasks;
 
 namespace Bmstu.IU6.Teaching
 {
-    public class Exercise1
-    {
-        /// <summary>
-        /// База данных
-        /// </summary>
-        private Storage.DB db = new Storage.DB();
-
-        /// <summary>
-        /// Генератор случайных чисел
-        /// </summary>
-        private Random rnd = new Random();
-
-        /// <summary>
-        /// Генерация вектора неповторяющихся случайных чисел заданной длины
-        /// </summary>
-        /// <param name="count"></param>
-        /// <param name="max"></param>
-        /// <returns></returns>
-        private List<int> randoms(int count, int max)
-        {
-            List<int> list = new List<int>();
-            for (int i = 1; i <= count; i++)
-            {
-                int n;
-                do
-                {
-                    n = rnd.Next(1, max + 1);
-                }
-                while (list.Contains(n));
-                list.Add(n);
-            }
-
-            return list;
-        }
-
+    public class Exercise1 : Exercise.Exercise0
+    {   
         /// <summary>
         /// Генерация первого задания
         /// </summary>
@@ -68,7 +35,7 @@ namespace Bmstu.IU6.Teaching
                 Console.Write(".");
 
                 // Список сотрудников
-                List<int> characters = randoms(roleCount, characterCount);
+                List<int> characters = Helper.Randoms(roleCount, characterCount);
 
                 // Формирование вариванта задания для каждой из шести ролей
                 for (int n = 1; n <= roleCount; n++)
@@ -78,7 +45,7 @@ namespace Bmstu.IU6.Teaching
                     do
                     {
                         // Вектор способностей
-                        List<int> abilities = randoms(2, aCount);
+                        List<int> abilities = Helper.Randoms(2, aCount);
                         int a1 = abilities[0];
                         int a2 = abilities[1];
 
@@ -111,10 +78,10 @@ namespace Bmstu.IU6.Teaching
         public void Run()
         {
             // Список номеров строк
-            List<int> rows = db.CodeRows.Select(a => a.Row).OrderBy(a => a).Distinct().ToList();
+            var code = new Exercise.Code(db,1);
 
             // Формирование выходного CSV-файла
-            using (var wrt = new System.IO.StreamWriter(@"iu6-02.txt", false))
+            using (var wrt = new System.IO.StreamWriter(@"rk1.txt", false))
             {
                 // Формирование заголовка файла
                 string s;
@@ -126,10 +93,7 @@ namespace Bmstu.IU6.Teaching
                     s += $"И{i};Т{i};К{i}1;К{i}2;";
                 }
                 // Задание 2
-                for (int i = 0; i < rows.Count(); i++)
-                {
-                    s += $"R{rows[i]};";
-                }
+                s += code.Header();
 
                 wrt.WriteLine(s);
 
@@ -139,7 +103,7 @@ namespace Bmstu.IU6.Teaching
                     Console.Write(".");
 
                     // Студент
-                    s = $"{student.FullName};{student.Group};{student.Code};";
+                    s = student.Csv;
 
                     // Задание 1
                     var list = db.Exercise1.Where(a => a.Student.ID == student.ID).OrderBy(a => a.Character.Name).ToList();
@@ -149,19 +113,7 @@ namespace Bmstu.IU6.Teaching
                     }
 
                     // Задание 2
-                    for (int i = 0; i < rows.Count(); i++)
-                    {
-                        // Номер строки кода
-                        int row = rows[i];
-                        // Количество вариантов
-                        int versions = db.CodeRows.Where(a => a.Row == row).Count();
-                        // Случайный выбор варианта
-                        int version = rnd.Next(1, versions + 1);
-                        // Загрузка варианта
-                        var code = db.CodeRows.Where(a => a.Row == row && a.Version == version).First();
-                        // Кавычки следует удвоить
-                        s += "\"" + code.Code.Replace("\"", "\"\"") + "\";";
-                    }
+                    s += code.Row(db, rnd);
 
                     // Запись строки
                     wrt.WriteLine(s);

@@ -63,5 +63,17 @@ namespace Bmstu.IU6.Teaching.Storage
                 return s;
             }
         }
+
+        /// <summary>
+        /// Формирование CSV-файла
+        /// </summary>
+        /// <returns></returns>
+        public string Csv
+        {
+            get
+            {
+                return $"{FullName};{Group};{Code};";
+            }
+        }
     }
 }

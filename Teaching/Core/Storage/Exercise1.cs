@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Bmstu.IU6.Teaching.Storage
 {
     /// <summary>
-    /// Задание № 1
+    /// Задание № 1 РК1
     /// </summary>
-    public class Exercise1 : Entity
+    public class Exercise1 : Exercise
     {
         /// <summary>
         /// Имя сотрудика
@@ -29,12 +29,7 @@ namespace Bmstu.IU6.Teaching.Storage
         /// <summary>
         /// Вторая способность
         /// </summary>
-        public virtual Ability Ability2 { get; set; }
-
-        /// <summary>
-        /// Студент
-        /// </summary>
-        public virtual Student  Student { get; set; }
+        public virtual Ability Ability2 { get; set; }             
 
         /// <summary>
         /// Уникальный код задания

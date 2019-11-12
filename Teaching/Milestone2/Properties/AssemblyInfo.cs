@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Рубежный контроль №1")]
-[assembly: AssemblyDescription("Формирование индивидуальных заданий для рубежного контроля № 1")]
+[assembly: AssemblyTitle("Рубежный контроль №2")]
+[assembly: AssemblyDescription("Формирование индивидуальных заданий для рубежного контроля № 2")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("МГТУ им. Н. Э. Баумана")]
 [assembly: AssemblyProduct("Учебный курс по выбору 'Разработка приложений на языке C#'")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f988bd5d-762a-48a3-b081-ff9f513d600f")]
+[assembly: Guid("758a05f2-3546-4de4-a2ac-9c315b954fc9")]
 
 // Version information for an assembly consists of the following four values:
 //
