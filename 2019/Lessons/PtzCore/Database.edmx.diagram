@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30e9cc5f04c544fc8799272f5ed7c994" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="Ptz.AccessRoles" Width="1.5" PointX="5.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.AccidentClasses" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Accidents" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.ButtonEvents" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Buttons" Width="1.5" PointX="7.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.ButtonSnapshots" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.CommandMessages" Width="1.5" PointX="7.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.ConveyorEvents" Width="1.5" PointX="9.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.ConveyorMatrices" Width="1.5" PointX="9.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Cycles" Width="1.5" PointX="10.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.MediaPlayers" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.MediaPlayerStatus" Width="1.5" PointX="8" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Plans" Width="1.5" PointX="7.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.PostSnapshots" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Settings" Width="1.5" PointX="9.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.UdpVariables" Width="1.5" PointX="11.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Ptz.Users" Width="1.5" PointX="11.75" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="Ptz.FK_dbo_Accidents_dbo_AccidentClasses_AType_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_Accidents_dbo_Accidents_NextVersion_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="Ptz.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Ptz.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AccessRoles">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="Code" Type="nvarchar" MaxLength="63" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AccidentClasses">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="63" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Accidents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Post" Type="nvarchar" MaxLength="10" />
+          <Property Name="Description" Type="nvarchar" MaxLength="255" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="AType_ID" Type="uniqueidentifier" />
+          <Property Name="NextVersion_ID" Type="uniqueidentifier" />
+          <Property Name="StartTime" Type="datetime" Nullable="false" />
+          <Property Name="EndTime" Type="datetime" />
+          <Property Name="Plan" Type="int" Nullable="false" />
+          <Property Name="Fact" Type="int" Nullable="false" />
+          <Property Name="PlanFact" Type="int" Nullable="false" />
+          <Property Name="BEvent_ID" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="ButtonEvents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="BType" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="Counter1" Type="int" Nullable="false" />
+          <Property Name="Counter2" Type="int" Nullable="false" />
+          <Property Name="Counter3" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Buttons">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="Post" Type="int" Nullable="false" />
+          <Property Name="Side" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ButtonSnapshots">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="BType" Type="int" Nullable="false" />
+          <Property Name="Side" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="Post_ID" Type="uniqueidentifier" />
+          <Property Name="Counter" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CommandMessages">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CType" Type="int" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" MaxLength="255" />
+          <Property Name="State" Type="bit" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ConveyorEvents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Sensors" Type="int" Nullable="false" />
+          <Property Name="State" Type="int" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ConveyorMatrices">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Sensors" Type="int" Nullable="false" />
+          <Property Name="State" Type="int" Nullable="false" />
+          <Property Name="NextState" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Cycles">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Number" Type="int" Nullable="false" />
+          <Property Name="Support" Type="int" Nullable="false" />
+          <Property Name="VIN" Type="nvarchar" MaxLength="17" />
+          <Property Name="TType" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="EndOfCycle" Type="datetime" />
+          <Property Name="PlanCount" Type="int" Nullable="false" />
+          <Property Name="Name1" Type="nchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MediaPlayers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="IP" Type="nvarchar" MaxLength="15" Nullable="false" />
+          <Property Name="Port" Type="int" Nullable="false" />
+          <Property Name="Comment" Type="nvarchar" MaxLength="255" />
+          <Property Name="Name" Type="nvarchar" MaxLength="63" Nullable="false" />
+          <Property Name="CurrentState" Type="int" Nullable="false" />
+          <Property Name="CurrentIPState" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MediaPlayerStatus">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="State" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="Player_ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="IPState" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Plans">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="PType" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="PlanCount" Type="int" Nullable="false" />
+          <Property Name="FactCount" Type="int" Nullable="false" />
+          <Property Name="Started" Type="bit" Nullable="false" />
+          <Property Name="Finished" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PostSnapshots">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Post" Type="int" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="Support" Type="int" Nullable="false" />
+          <Property Name="VIN" Type="nvarchar(max)" />
+          <Property Name="TType" Type="int" Nullable="false" />
+          <Property Name="AType_ID" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Settings">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CycleDuration" Type="time" Precision="7" Nullable="false" />
+          <Property Name="ReaderTimerInterval" Type="bigint" Nullable="false" />
+          <Property Name="ModbusIP" Type="nvarchar" MaxLength="255" />
+          <Property Name="ModbusPort" Type="int" Nullable="false" />
+          <Property Name="ModbusDeviceID" Type="tinyint" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+          <Property Name="UdpSenderInterval" Type="bigint" Nullable="false" />
+          <Property Name="StartTime" Type="time" Precision="7" />
+          <Property Name="FinishTime" Type="time" Precision="7" />
+          <Property Name="MediaPlayerTimeout" Type="int" Nullable="false" />
+          <Property Name="UdpCacheTimeout" Type="int" Nullable="false" />
+          <Property Name="DeviceMask" Type="bigint" Nullable="false" />
+          <Property Name="SupportCount" Type="int" Nullable="false" />
+          <Property Name="ModbusTimeout" Type="int" Nullable="false" />
+          <Property Name="ModbusThreshold" Type="int" Nullable="false" />
+          <Property Name="ConveyorTimeout" Type="int" Nullable="false" />
+          <Property Name="ConveyorTime" Type="time" Precision="7" Nullable="false" />
+          <Property Name="LunchStart" Type="time" Precision="7" Nullable="false" />
+          <Property Name="LunchFinish" Type="time" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UdpVariables">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="63" Nullable="false" />
+          <Property Name="Source" Type="nvarchar" MaxLength="127" />
+          <Property Name="Format" Type="nvarchar" MaxLength="63" />
+          <Property Name="Value" Type="nvarchar(max)" />
+          <Property Name="TimeStamp" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="AccessList" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_Accidents_dbo_AccidentClasses_AType_ID">
+          <End Role="AccidentClasses" Type="Self.AccidentClasses" Multiplicity="0..1" />
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AccidentClasses">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents">
+              <PropertyRef Name="AType_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Accidents_dbo_Accidents_NextVersion_ID">
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="0..1" />
+          <End Role="Accidents1" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accidents">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents1">
+              <PropertyRef Name="NextVersion_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID">
+          <End Role="ButtonEvents" Type="Self.ButtonEvents" Multiplicity="0..1" />
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ButtonEvents">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents">
+              <PropertyRef Name="BEvent_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID">
+          <End Role="PostSnapshots" Type="Self.PostSnapshots" Multiplicity="0..1" />
+          <End Role="ButtonSnapshots" Type="Self.ButtonSnapshots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PostSnapshots">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ButtonSnapshots">
+              <PropertyRef Name="Post_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID">
+          <End Role="MediaPlayers" Type="Self.MediaPlayers" Multiplicity="1" />
+          <End Role="MediaPlayerStatus" Type="Self.MediaPlayerStatus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MediaPlayers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MediaPlayerStatus">
+              <PropertyRef Name="Player_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID">
+          <End Role="MediaPlayers" Type="Self.MediaPlayers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MediaPlayerStatus" Type="Self.MediaPlayerStatus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MediaPlayers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MediaPlayerStatus">
+              <PropertyRef Name="Player_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID">
+          <End Role="AccidentClasses" Type="Self.AccidentClasses" Multiplicity="0..1" />
+          <End Role="PostSnapshots" Type="Self.PostSnapshots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AccidentClasses">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="PostSnapshots">
+              <PropertyRef Name="AType_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="PtzStoreContainer">
+          <EntitySet Name="AccessRoles" EntityType="Self.AccessRoles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AccidentClasses" EntityType="Self.AccidentClasses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Accidents" EntityType="Self.Accidents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ButtonEvents" EntityType="Self.ButtonEvents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Buttons" EntityType="Self.Buttons" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ButtonSnapshots" EntityType="Self.ButtonSnapshots" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CommandMessages" EntityType="Self.CommandMessages" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ConveyorEvents" EntityType="Self.ConveyorEvents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ConveyorMatrices" EntityType="Self.ConveyorMatrices" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Cycles" EntityType="Self.Cycles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MediaPlayers" EntityType="Self.MediaPlayers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MediaPlayerStatus" EntityType="Self.MediaPlayerStatus" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Plans" EntityType="Self.Plans" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PostSnapshots" EntityType="Self.PostSnapshots" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Settings" EntityType="Self.Settings" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UdpVariables" EntityType="Self.UdpVariables" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_Accidents_dbo_AccidentClasses_AType_ID" Association="Self.FK_dbo_Accidents_dbo_AccidentClasses_AType_ID">
+            <End Role="AccidentClasses" EntitySet="AccidentClasses" />
+            <End Role="Accidents" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Accidents_dbo_Accidents_NextVersion_ID" Association="Self.FK_dbo_Accidents_dbo_Accidents_NextVersion_ID">
+            <End Role="Accidents" EntitySet="Accidents" />
+            <End Role="Accidents1" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID" Association="Self.FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID">
+            <End Role="ButtonEvents" EntitySet="ButtonEvents" />
+            <End Role="Accidents" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID" Association="Self.FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID">
+            <End Role="PostSnapshots" EntitySet="PostSnapshots" />
+            <End Role="ButtonSnapshots" EntitySet="ButtonSnapshots" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID" Association="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID">
+            <End Role="MediaPlayers" EntitySet="MediaPlayers" />
+            <End Role="MediaPlayerStatus" EntitySet="MediaPlayerStatus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID" Association="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID">
+            <End Role="MediaPlayers" EntitySet="MediaPlayers" />
+            <End Role="MediaPlayerStatus" EntitySet="MediaPlayerStatus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID" Association="Self.FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID">
+            <End Role="AccidentClasses" EntitySet="AccidentClasses" />
+            <End Role="PostSnapshots" EntitySet="PostSnapshots" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Ptz" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AccessRoles">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="Code" Type="String" MaxLength="63" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AccidentClasses">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="63" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Accidents" Relationship="Self.FK_dbo_Accidents_dbo_AccidentClasses_AType_ID" FromRole="AccidentClasses" ToRole="Accidents" />
+          <NavigationProperty Name="PostSnapshots" Relationship="Self.FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID" FromRole="AccidentClasses" ToRole="PostSnapshots" />
+        </EntityType>
+        <EntityType Name="Accidents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Post" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="AType_ID" Type="Guid" />
+          <Property Name="NextVersion_ID" Type="Guid" />
+          <Property Name="StartTime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndTime" Type="DateTime" Precision="3" />
+          <Property Name="Plan" Type="Int32" Nullable="false" />
+          <Property Name="Fact" Type="Int32" Nullable="false" />
+          <Property Name="PlanFact" Type="Int32" Nullable="false" />
+          <Property Name="BEvent_ID" Type="Guid" />
+          <NavigationProperty Name="AccidentClasses" Relationship="Self.FK_dbo_Accidents_dbo_AccidentClasses_AType_ID" FromRole="Accidents" ToRole="AccidentClasses" />
+          <NavigationProperty Name="Accidents1" Relationship="Self.FK_dbo_Accidents_dbo_Accidents_NextVersion_ID" FromRole="Accidents" ToRole="Accidents1" />
+          <NavigationProperty Name="Accidents2" Relationship="Self.FK_dbo_Accidents_dbo_Accidents_NextVersion_ID" FromRole="Accidents1" ToRole="Accidents" />
+          <NavigationProperty Name="ButtonEvents" Relationship="Self.FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID" FromRole="Accidents" ToRole="ButtonEvents" />
+        </EntityType>
+        <EntityType Name="ButtonEvents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="BType" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="Counter1" Type="Int32" Nullable="false" />
+          <Property Name="Counter2" Type="Int32" Nullable="false" />
+          <Property Name="Counter3" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Accidents" Relationship="Self.FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID" FromRole="ButtonEvents" ToRole="Accidents" />
+        </EntityType>
+        <EntityType Name="Buttons">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="Post" Type="Int32" Nullable="false" />
+          <Property Name="Side" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ButtonSnapshots">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="BType" Type="Int32" Nullable="false" />
+          <Property Name="Side" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Post_ID" Type="Guid" />
+          <Property Name="Counter" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PostSnapshots" Relationship="Self.FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID" FromRole="ButtonSnapshots" ToRole="PostSnapshots" />
+        </EntityType>
+        <EntityType Name="CommandMessages">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="CType" Type="Int32" Nullable="false" />
+          <Property Name="Text" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="ConveyorEvents">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Sensors" Type="Int32" Nullable="false" />
+          <Property Name="State" Type="Int32" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="ConveyorMatrices">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Sensors" Type="Int32" Nullable="false" />
+          <Property Name="State" Type="Int32" Nullable="false" />
+          <Property Name="NextState" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Cycles">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Number" Type="Int32" Nullable="false" />
+          <Property Name="Support" Type="Int32" Nullable="false" />
+          <Property Name="VIN" Type="String" MaxLength="17" FixedLength="false" Unicode="true" />
+          <Property Name="TType" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="EndOfCycle" Type="DateTime" Precision="3" />
+          <Property Name="PlanCount" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Name1" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MediaPlayers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="IP" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Port" Type="Int32" Nullable="false" />
+          <Property Name="Comment" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="63" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CurrentState" Type="Int32" Nullable="false" />
+          <Property Name="CurrentIPState" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MediaPlayerStatus" Relationship="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID" FromRole="MediaPlayers" ToRole="MediaPlayerStatus" />
+          <NavigationProperty Name="MediaPlayerStatus1" Relationship="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID" FromRole="MediaPlayers" ToRole="MediaPlayerStatus" />
+        </EntityType>
+        <EntityType Name="MediaPlayerStatus">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="State" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Player_ID" Type="Guid" Nullable="false" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IPState" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MediaPlayers" Relationship="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID" FromRole="MediaPlayerStatus" ToRole="MediaPlayers" />
+          <NavigationProperty Name="MediaPlayers1" Relationship="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID" FromRole="MediaPlayerStatus" ToRole="MediaPlayers" />
+        </EntityType>
+        <EntityType Name="Plans">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="PType" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="PlanCount" Type="Int32" Nullable="false" />
+          <Property Name="FactCount" Type="Int32" Nullable="false" />
+          <Property Name="Started" Type="Boolean" Nullable="false" />
+          <Property Name="Finished" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PostSnapshots">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Post" Type="Int32" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Support" Type="Int32" Nullable="false" />
+          <Property Name="VIN" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TType" Type="Int32" Nullable="false" />
+          <Property Name="AType_ID" Type="Guid" />
+          <NavigationProperty Name="AccidentClasses" Relationship="Self.FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID" FromRole="PostSnapshots" ToRole="AccidentClasses" />
+          <NavigationProperty Name="ButtonSnapshots" Relationship="Self.FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID" FromRole="PostSnapshots" ToRole="ButtonSnapshots" />
+        </EntityType>
+        <EntityType Name="Settings">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="CycleDuration" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="ReaderTimerInterval" Type="Int64" Nullable="false" />
+          <Property Name="ModbusIP" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ModbusPort" Type="Int32" Nullable="false" />
+          <Property Name="ModbusDeviceID" Type="Byte" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UdpSenderInterval" Type="Int64" Nullable="false" />
+          <Property Name="StartTime" Type="Time" Precision="7" />
+          <Property Name="FinishTime" Type="Time" Precision="7" />
+          <Property Name="MediaPlayerTimeout" Type="Int32" Nullable="false" />
+          <Property Name="UdpCacheTimeout" Type="Int32" Nullable="false" />
+          <Property Name="DeviceMask" Type="Int64" Nullable="false" />
+          <Property Name="SupportCount" Type="Int32" Nullable="false" />
+          <Property Name="ModbusTimeout" Type="Int32" Nullable="false" />
+          <Property Name="ModbusThreshold" Type="Int32" Nullable="false" />
+          <Property Name="ConveyorTimeout" Type="Int32" Nullable="false" />
+          <Property Name="ConveyorTime" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="LunchStart" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="LunchFinish" Type="Time" Nullable="false" Precision="7" />
+        </EntityType>
+        <EntityType Name="UdpVariables">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="63" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Source" Type="String" MaxLength="127" FixedLength="false" Unicode="true" />
+          <Property Name="Format" Type="String" MaxLength="63" FixedLength="false" Unicode="true" />
+          <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TimeStamp" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="AccessList" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_Accidents_dbo_AccidentClasses_AType_ID">
+          <End Role="AccidentClasses" Type="Self.AccidentClasses" Multiplicity="0..1" />
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AccidentClasses">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents">
+              <PropertyRef Name="AType_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID">
+          <End Role="AccidentClasses" Type="Self.AccidentClasses" Multiplicity="0..1" />
+          <End Role="PostSnapshots" Type="Self.PostSnapshots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AccidentClasses">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="PostSnapshots">
+              <PropertyRef Name="AType_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Accidents_dbo_Accidents_NextVersion_ID">
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="0..1" />
+          <End Role="Accidents1" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Accidents">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents1">
+              <PropertyRef Name="NextVersion_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID">
+          <End Role="ButtonEvents" Type="Self.ButtonEvents" Multiplicity="0..1" />
+          <End Role="Accidents" Type="Self.Accidents" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ButtonEvents">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Accidents">
+              <PropertyRef Name="BEvent_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID">
+          <End Role="PostSnapshots" Type="Self.PostSnapshots" Multiplicity="0..1" />
+          <End Role="ButtonSnapshots" Type="Self.ButtonSnapshots" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PostSnapshots">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ButtonSnapshots">
+              <PropertyRef Name="Post_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID">
+          <End Role="MediaPlayers" Type="Self.MediaPlayers" Multiplicity="1" />
+          <End Role="MediaPlayerStatus" Type="Self.MediaPlayerStatus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MediaPlayers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MediaPlayerStatus">
+              <PropertyRef Name="Player_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID">
+          <End Role="MediaPlayers" Type="Self.MediaPlayers" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MediaPlayerStatus" Type="Self.MediaPlayerStatus" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MediaPlayers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MediaPlayerStatus">
+              <PropertyRef Name="Player_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AccessRoles" EntityType="Self.AccessRoles" />
+          <EntitySet Name="AccidentClasses" EntityType="Self.AccidentClasses" />
+          <EntitySet Name="Accidents" EntityType="Self.Accidents" />
+          <EntitySet Name="ButtonEvents" EntityType="Self.ButtonEvents" />
+          <EntitySet Name="Buttons" EntityType="Self.Buttons" />
+          <EntitySet Name="ButtonSnapshots" EntityType="Self.ButtonSnapshots" />
+          <EntitySet Name="CommandMessages" EntityType="Self.CommandMessages" />
+          <EntitySet Name="ConveyorEvents" EntityType="Self.ConveyorEvents" />
+          <EntitySet Name="ConveyorMatrices" EntityType="Self.ConveyorMatrices" />
+          <EntitySet Name="Cycles" EntityType="Self.Cycles" />
+          <EntitySet Name="MediaPlayers" EntityType="Self.MediaPlayers" />
+          <EntitySet Name="MediaPlayerStatus" EntityType="Self.MediaPlayerStatus" />
+          <EntitySet Name="Plans" EntityType="Self.Plans" />
+          <EntitySet Name="PostSnapshots" EntityType="Self.PostSnapshots" />
+          <EntitySet Name="Settings" EntityType="Self.Settings" />
+          <EntitySet Name="UdpVariables" EntityType="Self.UdpVariables" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK_dbo_Accidents_dbo_AccidentClasses_AType_ID" Association="Self.FK_dbo_Accidents_dbo_AccidentClasses_AType_ID">
+            <End Role="AccidentClasses" EntitySet="AccidentClasses" />
+            <End Role="Accidents" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID" Association="Self.FK_dbo_PostSnapshots_dbo_AccidentClasses_AType_ID">
+            <End Role="AccidentClasses" EntitySet="AccidentClasses" />
+            <End Role="PostSnapshots" EntitySet="PostSnapshots" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Accidents_dbo_Accidents_NextVersion_ID" Association="Self.FK_dbo_Accidents_dbo_Accidents_NextVersion_ID">
+            <End Role="Accidents" EntitySet="Accidents" />
+            <End Role="Accidents1" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID" Association="Self.FK_dbo_Accidents_dbo_ButtonEvents_BEvent_ID">
+            <End Role="ButtonEvents" EntitySet="ButtonEvents" />
+            <End Role="Accidents" EntitySet="Accidents" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID" Association="Self.FK_dbo_ButtonSnapshops_dbo_PostSnapshots_Post_ID">
+            <End Role="PostSnapshots" EntitySet="PostSnapshots" />
+            <End Role="ButtonSnapshots" EntitySet="ButtonSnapshots" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID" Association="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_MediaPlayer_ID">
+            <End Role="MediaPlayers" EntitySet="MediaPlayers" />
+            <End Role="MediaPlayerStatus" EntitySet="MediaPlayerStatus" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID" Association="Self.FK_dbo_MediaPlayerStatus_dbo_MediaPlayers_Player_ID">
+            <End Role="MediaPlayers" EntitySet="MediaPlayers" />
+            <End Role="MediaPlayerStatus" EntitySet="MediaPlayerStatus" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PtzStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="AccessRoles">
+            <EntityTypeMapping TypeName="Ptz.AccessRoles">
+              <MappingFragment StoreEntitySet="AccessRoles">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AccidentClasses">
+            <EntityTypeMapping TypeName="Ptz.AccidentClasses">
+              <MappingFragment StoreEntitySet="AccidentClasses">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Accidents">
+            <EntityTypeMapping TypeName="Ptz.Accidents">
+              <MappingFragment StoreEntitySet="Accidents">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Post" ColumnName="Post" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="AType_ID" ColumnName="AType_ID" />
+                <ScalarProperty Name="NextVersion_ID" ColumnName="NextVersion_ID" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+                <ScalarProperty Name="Plan" ColumnName="Plan" />
+                <ScalarProperty Name="Fact" ColumnName="Fact" />
+                <ScalarProperty Name="PlanFact" ColumnName="PlanFact" />
+                <ScalarProperty Name="BEvent_ID" ColumnName="BEvent_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ButtonEvents">
+            <EntityTypeMapping TypeName="Ptz.ButtonEvents">
+              <MappingFragment StoreEntitySet="ButtonEvents">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BType" ColumnName="BType" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Counter1" ColumnName="Counter1" />
+                <ScalarProperty Name="Counter2" ColumnName="Counter2" />
+                <ScalarProperty Name="Counter3" ColumnName="Counter3" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Buttons">
+            <EntityTypeMapping TypeName="Ptz.Buttons">
+              <MappingFragment StoreEntitySet="Buttons">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Post" ColumnName="Post" />
+                <ScalarProperty Name="Side" ColumnName="Side" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ButtonSnapshots">
+            <EntityTypeMapping TypeName="Ptz.ButtonSnapshots">
+              <MappingFragment StoreEntitySet="ButtonSnapshots">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BType" ColumnName="BType" />
+                <ScalarProperty Name="Side" ColumnName="Side" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="Post_ID" ColumnName="Post_ID" />
+                <ScalarProperty Name="Counter" ColumnName="Counter" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CommandMessages">
+            <EntityTypeMapping TypeName="Ptz.CommandMessages">
+              <MappingFragment StoreEntitySet="CommandMessages">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CType" ColumnName="CType" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ConveyorEvents">
+            <EntityTypeMapping TypeName="Ptz.ConveyorEvents">
+              <MappingFragment StoreEntitySet="ConveyorEvents">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Sensors" ColumnName="Sensors" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ConveyorMatrices">
+            <EntityTypeMapping TypeName="Ptz.ConveyorMatrices">
+              <MappingFragment StoreEntitySet="ConveyorMatrices">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Sensors" ColumnName="Sensors" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="NextState" ColumnName="NextState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cycles">
+            <EntityTypeMapping TypeName="Ptz.Cycles">
+              <MappingFragment StoreEntitySet="Cycles">
+                <ScalarProperty Name="Name1" ColumnName="Name1" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Support" ColumnName="Support" />
+                <ScalarProperty Name="VIN" ColumnName="VIN" />
+                <ScalarProperty Name="TType" ColumnName="TType" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="EndOfCycle" ColumnName="EndOfCycle" />
+                <ScalarProperty Name="PlanCount" ColumnName="PlanCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MediaPlayers">
+            <EntityTypeMapping TypeName="Ptz.MediaPlayers">
+              <MappingFragment StoreEntitySet="MediaPlayers">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="Port" ColumnName="Port" />
+                <ScalarProperty Name="Comment" ColumnName="Comment" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="CurrentState" ColumnName="CurrentState" />
+                <ScalarProperty Name="CurrentIPState" ColumnName="CurrentIPState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MediaPlayerStatus">
+            <EntityTypeMapping TypeName="Ptz.MediaPlayerStatus">
+              <MappingFragment StoreEntitySet="MediaPlayerStatus">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="Player_ID" ColumnName="Player_ID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="IPState" ColumnName="IPState" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Plans">
+            <EntityTypeMapping TypeName="Ptz.Plans">
+              <MappingFragment StoreEntitySet="Plans">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="PType" ColumnName="PType" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="PlanCount" ColumnName="PlanCount" />
+                <ScalarProperty Name="FactCount" ColumnName="FactCount" />
+                <ScalarProperty Name="Started" ColumnName="Started" />
+                <ScalarProperty Name="Finished" ColumnName="Finished" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PostSnapshots">
+            <EntityTypeMapping TypeName="Ptz.PostSnapshots">
+              <MappingFragment StoreEntitySet="PostSnapshots">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Post" ColumnName="Post" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="Support" ColumnName="Support" />
+                <ScalarProperty Name="VIN" ColumnName="VIN" />
+                <ScalarProperty Name="TType" ColumnName="TType" />
+                <ScalarProperty Name="AType_ID" ColumnName="AType_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Settings">
+            <EntityTypeMapping TypeName="Ptz.Settings">
+              <MappingFragment StoreEntitySet="Settings">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CycleDuration" ColumnName="CycleDuration" />
+                <ScalarProperty Name="ReaderTimerInterval" ColumnName="ReaderTimerInterval" />
+                <ScalarProperty Name="ModbusIP" ColumnName="ModbusIP" />
+                <ScalarProperty Name="ModbusPort" ColumnName="ModbusPort" />
+                <ScalarProperty Name="ModbusDeviceID" ColumnName="ModbusDeviceID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+                <ScalarProperty Name="UdpSenderInterval" ColumnName="UdpSenderInterval" />
+                <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+                <ScalarProperty Name="FinishTime" ColumnName="FinishTime" />
+                <ScalarProperty Name="MediaPlayerTimeout" ColumnName="MediaPlayerTimeout" />
+                <ScalarProperty Name="UdpCacheTimeout" ColumnName="UdpCacheTimeout" />
+                <ScalarProperty Name="DeviceMask" ColumnName="DeviceMask" />
+                <ScalarProperty Name="SupportCount" ColumnName="SupportCount" />
+                <ScalarProperty Name="ModbusTimeout" ColumnName="ModbusTimeout" />
+                <ScalarProperty Name="ModbusThreshold" ColumnName="ModbusThreshold" />
+                <ScalarProperty Name="ConveyorTimeout" ColumnName="ConveyorTimeout" />
+                <ScalarProperty Name="ConveyorTime" ColumnName="ConveyorTime" />
+                <ScalarProperty Name="LunchStart" ColumnName="LunchStart" />
+                <ScalarProperty Name="LunchFinish" ColumnName="LunchFinish" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UdpVariables">
+            <EntityTypeMapping TypeName="Ptz.UdpVariables">
+              <MappingFragment StoreEntitySet="UdpVariables">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="Format" ColumnName="Format" />
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="Ptz.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="AccessList" ColumnName="AccessList" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
