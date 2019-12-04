@@ -1,0 +1,35 @@
+﻿@model MvpApp.Storage.Chair
+
+@{
+    ViewBag.Title = "Удаление кафедры";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<h3>Подтвердите удаление объекта</h3>
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Number)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Number)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-danger" /> |
+            @Html.ActionLink("Вернуться", "Index", null, new { @class = "btn btn-info" })
+        </div>
+    }
+</div>

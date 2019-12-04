@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MvpApp.Storage.Chair>
+
+@{
+    ViewBag.Title = "Список кафедр";
+}
+
+<h2>Список кафедр</h2>
+
+<p>
+    @Html.ActionLink("Создать", "Create", null, new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Number)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Number)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Правка", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Информация", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Удалить", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+    }
+
+</table>

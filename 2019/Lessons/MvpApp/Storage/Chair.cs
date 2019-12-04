@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvpApp.Storage
 {
@@ -13,6 +15,17 @@ namespace MvpApp.Storage
         /// <summary>
         /// Номер кафедры
         /// </summary>
+        [Display(Name = "Номер кафедры")]
+        [Index("IX_NUMBER", IsUnique = true)]
+        [Range(1, 99)]
         public int Number { get; set; }
+
+        /// <summary>
+        /// Название кафедры
+        /// </summary>
+        [Required()]
+        [MaxLength(127)]
+        [Display(Name = "Название кафедры")]
+        public string Name { get; set; }
     }
 }

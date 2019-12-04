@@ -129,6 +129,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ChairsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -148,6 +149,14 @@
     <Compile Include="Migrations\201911271202541_003.cs" />
     <Compile Include="Migrations\201911271202541_003.Designer.cs">
       <DependentUpon>201911271202541_003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912040955199_004.cs" />
+    <Compile Include="Migrations\201912040955199_004.designer.cs">
+      <DependentUpon>201912040955199_004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912041014353_005.cs" />
+    <Compile Include="Migrations\201912041014353_005.designer.cs">
+      <DependentUpon>201912041014353_005.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -203,6 +212,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Chairs\Create.cshtml" />
+    <Content Include="Views\Chairs\Delete.cshtml" />
+    <Content Include="Views\Chairs\Details.cshtml" />
+    <Content Include="Views\Chairs\Edit.cshtml" />
+    <Content Include="Views\Chairs\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -225,6 +239,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201911271202541_003.resx">
       <DependentUpon>201911271202541_003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912040955199_004.resx">
+      <DependentUpon>201912040955199_004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912041014353_005.resx">
+      <DependentUpon>201912041014353_005.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -7,6 +7,9 @@ using System.Web.Routing;
 
 namespace MvpApp
 {
+    /// <summary>
+    /// Настройка маршрутизации запросов
+    /// </summary>
     public class RouteConfig
     {
         public static void RegisterRoutes(RouteCollection routes)
@@ -16,7 +19,12 @@ namespace MvpApp
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new
+                {
+                    controller = "Home", // контроллер по умолчанию
+                    action = "Index", // действие по умолчанию
+                    id = UrlParameter.Optional // идентификатор объекта не является обязательным
+                }
             );
         }
     }

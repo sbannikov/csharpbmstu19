@@ -9,6 +9,8 @@ namespace MvpApp.Migrations
     /// Конфигурация миграций
     /// Add-Migration nnn -- добавление очередной миграции
     /// Update-Database -TargetMigration nnn -- переход к нужной миграции
+    /// 
+    /// См. также https://github.com/aspnet/EntityFramework6/issues/492
     /// </summary>
     internal sealed class Configuration : DbMigrationsConfiguration<MvpApp.Storage.Database>
     {
