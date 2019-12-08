@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="/Home/Create" method="post">
+        <label>Источник выбросов:</label>
+        <input type="text" name="source" /><br><br>
+
+        <label>Датчик:</label>
+        <input type="text" name="sensor"><br><br>
+
+        <label>Параметр:</label>
+        <input type="text" name="parameter"><br><br>
+
+        <label>Значение:</label>
+        <input type="text" name="value"><br><br>
+     
+        <input type="submit" value="Create">
+    </form> 
+</div>
