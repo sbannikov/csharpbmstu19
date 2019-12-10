@@ -1,25 +1,78 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
+using System.Data.SQLite;
 using adder.Models;
+using System.Collections.Generic;
 
 namespace adder.Controllers
 {
     public class HomeController : Controller
     {
+        IConfiguration _iconfiguration;
+      
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        Database databaseObject = new Database();
+
+        public HomeController(ILogger<HomeController> logger, IConfiguration iconfiguration)
         {
             _logger = logger;
+            _iconfiguration = iconfiguration;
         }
 
         public IActionResult Index()
         {
+            databaseObject.OpenConnection();
+
+            List<string> SourceData = new List<string>();
+            string query = "SELECT `pniv` FROM `sources`";
+            SQLiteCommand command = new SQLiteCommand(query, databaseObject.conn);
+            SQLiteDataReader result = command.ExecuteReader();
+            if (result.HasRows)
+            {
+                while (result.Read())
+                {
+                    SourceData.Add(new string(result["pniv"].ToString()));
+                }
+
+                ViewData["source_data"] = SourceData;
+            }
+
+
+            List<string> SensorData = new List<string>();
+            query = "SELECT `sensor_uuid` FROM `sensors`";
+            command = new SQLiteCommand(query, databaseObject.conn);
+            result = command.ExecuteReader();
+            if (result.HasRows)
+            {
+                while (result.Read())
+                {
+                    SensorData.Add(new string(result["sensor_uuid"].ToString()));
+                }
+
+                ViewData["sensor_data"] = SensorData;
+            }
+
+
+            List<string> ParameteresData = new List<string>();
+            query = "SELECT `code` FROM `parameteres`";
+            command = new SQLiteCommand(query, databaseObject.conn);
+            result = command.ExecuteReader();
+            if (result.HasRows)
+            {
+                while (result.Read())
+                {
+                    ParameteresData.Add(new string(result["code"].ToString()));
+                }
+
+                ViewData["parameter_data"] = ParameteresData;
+            }
+
+            databaseObject.CloseConnection();
+
             return View();
         }
 
@@ -28,12 +81,29 @@ namespace adder.Controllers
         {
             try
             {
-                ViewData["Source"] = collection["Source"];
-                ViewData["Sensor"] = collection["Sensor"];
-                ViewData["Parameter"] = collection["Parameter"];
-                ViewData["Value"] = collection["Value"];
+                ViewData["source"] = collection["source"];
+                ViewData["sensor"] = collection["sensor"];
+                ViewData["parameter"] = collection["parameter"];
+                ViewData["value"] = collection["value"];
 
-                return View("Res");
+                string query = "INSERT INTO indicators (`code`, `unit`, `type`, `value`) VALUES (@Code, @Unit, @Type, @Value)";
+
+                SQLiteCommand command = new SQLiteCommand(query, databaseObject.conn);
+                databaseObject.OpenConnection();
+
+
+                command.Parameters.AddWithValue("@Code", collection["source"]);
+                command.Parameters.AddWithValue("@Unit", collection["sensor"]);
+                command.Parameters.AddWithValue("@Type", collection["parameter"]);
+                command.Parameters.AddWithValue("@Value", collection["value"]);
+                var result = command.ExecuteNonQuery();
+
+                databaseObject.CloseConnection();
+
+
+                Console.WriteLine(result);
+
+                return View("Create");
             }
             catch
             {

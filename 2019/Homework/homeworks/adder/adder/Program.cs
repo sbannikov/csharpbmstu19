@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -13,6 +14,12 @@ namespace adder
     {
         public static void Main(string[] args)
         {
+            if (!File.Exists("./sqlite.db"))
+            {
+                PreStart prestarter = new PreStart();
+                prestarter.CreateTables();
+                prestarter.GenerateData();
+            }
             CreateHostBuilder(args).Build().Run();
         }
 

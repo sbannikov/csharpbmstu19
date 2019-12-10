@@ -1,17 +1,35 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    var SourceData = ViewData["source_data"] as List<string>;
+    var SensorData = ViewData["sensor_data"] as List<string>;
+    var ParameteresData = ViewData["parameter_data"] as List<string>;
 }
 
 <div class="text-center">
     <form action="/Home/Create" method="post">
         <label>Источник выбросов:</label>
-        <input type="text" name="source" /><br><br>
+        <select name="source">
+        @foreach (var source in SourceData)
+        {
+            <option>@source</option>
+        }
+        </select>
 
         <label>Датчик:</label>
-        <input type="text" name="sensor"><br><br>
+        <select name="sensor">
+        @foreach (var sensor in SensorData)
+        {
+            <option>@sensor</option>
+        }
+        </select>
 
         <label>Параметр:</label>
-        <input type="text" name="parameter"><br><br>
+        <select name="parameter">
+        @foreach (var param in ParameteresData)
+        {
+            <option>@param</option>
+        }
+        </select>
 
         <label>Значение:</label>
         <input type="text" name="value"><br><br>
