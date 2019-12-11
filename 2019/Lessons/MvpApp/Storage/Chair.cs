@@ -27,5 +27,16 @@ namespace MvpApp.Storage
         [MaxLength(127)]
         [Display(Name = "Название кафедры")]
         public string Name { get; set; }
+
+        /// <summary>
+        /// Идентификатор факультета
+        /// </summary>
+        public Nullable<Guid> FacultyID { get; set; }
+
+        /// <summary>
+        /// Факультет
+        /// </summary>
+        [ForeignKey("FacultyID")]
+        public virtual Faculty Faculty { get; set; }
     }
 }

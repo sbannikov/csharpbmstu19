@@ -12,13 +12,8 @@ namespace MvpApp.Controllers
     /// <summary>
     /// Контроллер кафедр
     /// </summary>
-    public class ChairsController : Controller
+    public class ChairsController : DbController
     {
-        /// <summary>
-        /// База данных
-        /// </summary>
-        private Database db = new Database();
-
         /// <summary>
         /// Список кафедр
         /// GET: Chairs
@@ -159,15 +154,6 @@ namespace MvpApp.Controllers
             db.Chairs.Remove(chair);
             db.SaveChanges();
             return RedirectToAction("Index");
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
         }
     }
 }

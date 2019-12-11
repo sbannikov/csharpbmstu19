@@ -33,6 +33,11 @@ namespace MvpApp.Storage
         public virtual DbSet<Chair> Chairs { get; set; }
 
         /// <summary>
+        /// Факультеты
+        /// </summary>
+        public virtual DbSet<Faculty> Faculties { get; set; }
+
+        /// <summary>
         /// Группы
         /// </summary>
         public virtual DbSet<Group> Groups { get; set; }
