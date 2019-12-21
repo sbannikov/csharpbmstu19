@@ -1,0 +1,12 @@
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\bin\Debug\ClientApp.exe.config
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\bin\Debug\ClientApp.exe
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\bin\Debug\ClientApp.pdb
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\bin\Debug\Utility.dll
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.csprojAssemblyReference.cache
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.MainForm.resources
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.Properties.Resources.resources
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.csproj.GenerateResource.cache
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.csproj.CoreCompileInputs.cache
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.csproj.CopyComplete
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.exe
+C:\Users\Светлана\Desktop\C# Homework\ClientApp\obj\Debug\ClientApp.pdb
