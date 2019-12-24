@@ -15,10 +15,10 @@ namespace SendService.DB
     public class DBSerializer
     {
 
-        private SqlConnection Connection = new SqlConnection(DBConnector.GetConnectionStringFromConfig());
-        public DBSerializer(DBConnector connector)
+        private SqlConnection Connection;
+        public DBSerializer()
         {
-           // Connection = connector.GetConnection();
+            Connection = new SqlConnection(DBConnector.GetConnectionStringFromConfig());
         }
 
         public List<Source> GetSources()
