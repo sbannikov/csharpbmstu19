@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SendService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="getServiceUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:7892</Value>
+    </Setting>
+    <Setting Name="dbHost" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="dbPort" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1521</Value>
+    </Setting>
+    <Setting Name="dbScheme" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">xe</Value>
+    </Setting>
+    <Setting Name="dbUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">sensor</Value>
+    </Setting>
+    <Setting Name="dbPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">113425505614</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
