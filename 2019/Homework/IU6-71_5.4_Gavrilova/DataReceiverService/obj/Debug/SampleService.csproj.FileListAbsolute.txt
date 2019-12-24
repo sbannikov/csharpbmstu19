@@ -1,0 +1,9 @@
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\bin\SampleService.dll.config
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\bin\SampleService.dll
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\bin\SampleService.pdb
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\obj\Debug\SampleService.csprojAssemblyReference.cache
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\obj\Debug\SampleService.dll
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\obj\Debug\SampleService.pdb
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\bin\EntityClassLibrary.dll
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\bin\EntityClassLibrary.pdb
+C:\Users\Rabblerouser\source\repos\SampleService\SampleService\obj\Debug\SampleService.csproj.CopyComplete

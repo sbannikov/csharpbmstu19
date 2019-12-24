@@ -1,0 +1,14 @@
+{
+  "source_uuid" : "5c7d990f-a4db-4a7e-a85a-8cb3cfbc66bf",
+   "pniv" : 1,
+   "sensor_uuid" : "387f3c28-10da-4cd2-a261-7fea49c8c963",
+   "state" : "OK",
+   "parameter_uuid" : "d3983ced-a4f5-4e04-897f-20c14757a9a8",
+   "code" : "HClkgPerHour",
+   "unit" : "kgPH",
+   "type" : "float",
+   "value_uuid" : "fa6857e1-011a-4da2-8888-dcecf63dfcd6",
+   "timestamp_start" : 1576936887,
+   "timestamp_end" : 1576936917,
+   "value" : "1.499"
+}
