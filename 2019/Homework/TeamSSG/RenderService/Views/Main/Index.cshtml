@@ -22,7 +22,7 @@
     </td>
     <td>
         Код: @Html.DisplayFor(modelItem => item.Parameter.Code)
-        Единицы измерения:  @Html.DisplayFor(modelItem => item.Parameter.Unit)
+        <br />Единицы измерения:  @Html.DisplayFor(modelItem => item.Parameter.Unit)
     </td>
 
     <td>
@@ -30,7 +30,7 @@
     </td>
     <td>
         Начало измерения: @Html.DisplayFor(modelItem => item.TimeStampStart)
-        Конец измерения: @Html.DisplayFor(modelItem => item.TimeStampEnd)
+        <br />Конец измерения: @Html.DisplayFor(modelItem => item.TimeStampEnd)
     </td>
     <td>
         @Html.DisplayFor(modelItem => item.Parameter.Sensor.Source.PNIV)

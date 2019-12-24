@@ -34,7 +34,7 @@ namespace RenderService.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:7892/")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:7892")]
         public string getServiceUrl {
             get {
                 return ((string)(this["getServiceUrl"]));

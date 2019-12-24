@@ -38,10 +38,14 @@ namespace RenderService.Controllers
 
             XmlSerializer formatter = new XmlSerializer(typeof(XmlModel));
 
-
-            var model = (XmlModel)formatter.Deserialize(xr);
-
-            return View(model.MeasuredValues);
+            try
+            {
+                return View(((XmlModel)formatter.Deserialize(xr)).MeasuredValues);
+            }
+            catch
+            {
+                return View(new List<MeasuredValue>()); 
+            }
         }
     }
 }
