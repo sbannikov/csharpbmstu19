@@ -14,12 +14,6 @@ namespace Program228
     {
         public static void Main(string[] args)
         {
-            if (!File.Exists("./sqlite.db"))
-            {
-                PreStart prestarter = new PreStart();
-                prestarter.CreateTables();
-                prestarter.GenerateData();
-            }
             CreateHostBuilder(args).Build().Run();
         }
 
