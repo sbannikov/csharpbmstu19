@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MetricsInput", "MetricsInput\", "{E3088DE1-F670-4463-B47E-7210E5CD6919}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{25a08e06-ba40-4e72-a2d7-823aa14dde61}|MetricsSave.dll;{3cf4af18-1a00-42e8-a970-ca8a61bb2db4}|Common.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55132"
+		Debug.AspNetCompiler.PhysicalPath = "MetricsInput\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55132\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55132"
+		Release.AspNetCompiler.PhysicalPath = "MetricsInput\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55132\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55132"
+		SlnRelativePath = "MetricsInput\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsSave", "MetricsDbProvider\MetricsSave.csproj", "{25A08E06-BA40-4E72-A2D7-823AA14DDE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderService", "SenderService\SenderService.csproj", "{C334098F-55DA-4F62-86FB-0BB30CA28CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{3CF4AF18-1A00-42E8-A970-CA8A61BB2DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverService", "ReceiverService\ReceiverService.csproj", "{3CAEC282-F27E-4C1F-B243-46C4F41BD249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3088DE1-F670-4463-B47E-7210E5CD6919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3088DE1-F670-4463-B47E-7210E5CD6919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3088DE1-F670-4463-B47E-7210E5CD6919}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3088DE1-F670-4463-B47E-7210E5CD6919}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{25A08E06-BA40-4E72-A2D7-823AA14DDE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A08E06-BA40-4E72-A2D7-823AA14DDE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A08E06-BA40-4E72-A2D7-823AA14DDE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A08E06-BA40-4E72-A2D7-823AA14DDE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C334098F-55DA-4F62-86FB-0BB30CA28CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C334098F-55DA-4F62-86FB-0BB30CA28CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C334098F-55DA-4F62-86FB-0BB30CA28CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C334098F-55DA-4F62-86FB-0BB30CA28CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF4AF18-1A00-42E8-A970-CA8A61BB2DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF4AF18-1A00-42E8-A970-CA8A61BB2DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF4AF18-1A00-42E8-A970-CA8A61BB2DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF4AF18-1A00-42E8-A970-CA8A61BB2DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAEC282-F27E-4C1F-B243-46C4F41BD249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAEC282-F27E-4C1F-B243-46C4F41BD249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAEC282-F27E-4C1F-B243-46C4F41BD249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAEC282-F27E-4C1F-B243-46C4F41BD249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B7286C2-2732-4101-BEFD-AA87ED9CA51B}
+	EndGlobalSection
+EndGlobal
