@@ -6,7 +6,7 @@ namespace Program228.Repositories
 {
     public class IndicatorRepository
     {
-        private static String query = "SELECT * FROM `indicators`";
+        private static String query = "SELECT * FROM `latestvals`";
         private Database databaseObject;
 
         public IndicatorRepository() {
