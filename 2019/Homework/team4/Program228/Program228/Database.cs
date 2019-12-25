@@ -12,11 +12,6 @@ namespace Program228
         {
             // "Server=db;Port=5432;Database=postgres;UserId=postgres;Password=postgres;";
             conn = new SQLiteConnection("Data Source=sqlite.db");
-            if (!File.Exists("./sqlite.db"))
-            {
-                SQLiteConnection.CreateFile("./sqlite.db");
-                Console.WriteLine("Database file created");
-            }
         }
 
         public void OpenConnection()
