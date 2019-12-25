@@ -18,7 +18,7 @@ namespace SendService
     {
         public void GetAndSendMeasuredValues()
         {
-            var dbSerializer = new DBSerializer(new DBConnector());
+            var dbSerializer = new DBSerializer();
             List<Value> values = dbSerializer.GetValues();
             List<Parameter> parameters = dbSerializer.GetParameters();
             List<Sensor> sensors = dbSerializer.GetSensors();
