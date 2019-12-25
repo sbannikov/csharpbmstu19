@@ -15,9 +15,12 @@ namespace ClientApp
     public partial class MainForm : Form
     {
         static ComboBoxData cbd;
+        
+        private Database DB;
         public MainForm()
         {
             InitializeComponent();
+            DB = new Database();
         }
 
         /// <summary>
@@ -113,7 +116,10 @@ namespace ClientApp
                 //  -> val (Значение параметра)
                 
                 //Здесь реализуется запись в БД
-
+				DB.SendToBD(src);
+				DB.SendToBD(snr);
+				DB.SendToBD(prm);
+				DB.SendToBD(val);
             }
 
         }
