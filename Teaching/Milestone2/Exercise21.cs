@@ -16,9 +16,6 @@ namespace Bmstu.IU6.Teaching
         /// </summary>
         public void Run1()
         {
-            // Удаление старого расчета
-            db.Exercise21.RemoveRange(db.Exercise21.ToList());
-
             // Формирование задания для каждого студента
             foreach (var student in db.Students.
                 Where(a => a.Mark).
@@ -26,6 +23,10 @@ namespace Bmstu.IU6.Teaching
                 ThenBy(a => a.Name).
                 ToList())
             {
+                // Очистка старых данных
+                var old = db.Exercise21.Where(a => a.Student.ID == student.ID).ToList();
+                db.Exercise21.RemoveRange(old);
+
                 var list = Helper.Randoms(12, 12);
                 for (int i = 0; i < 12; i++)
                 {

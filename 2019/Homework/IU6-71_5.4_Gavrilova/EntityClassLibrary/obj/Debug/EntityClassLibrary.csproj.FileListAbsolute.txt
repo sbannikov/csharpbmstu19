@@ -1,5 +1,0 @@
-C:\Users\Rabblerouser\source\repos\SampleService\EntityClassLibrary\bin\Debug\EntityClassLibrary.dll
-C:\Users\Rabblerouser\source\repos\SampleService\EntityClassLibrary\bin\Debug\EntityClassLibrary.pdb
-C:\Users\Rabblerouser\source\repos\SampleService\EntityClassLibrary\obj\Debug\EntityClassLibrary.csprojAssemblyReference.cache
-C:\Users\Rabblerouser\source\repos\SampleService\EntityClassLibrary\obj\Debug\EntityClassLibrary.dll
-C:\Users\Rabblerouser\source\repos\SampleService\EntityClassLibrary\obj\Debug\EntityClassLibrary.pdb

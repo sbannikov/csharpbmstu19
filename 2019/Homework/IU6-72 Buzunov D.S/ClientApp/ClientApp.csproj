@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ComboBoxData.cs" />
+    <Compile Include="Database.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

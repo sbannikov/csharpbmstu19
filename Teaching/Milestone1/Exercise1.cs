@@ -11,14 +11,8 @@ namespace Bmstu.IU6.Teaching
         /// <summary>
         /// Генерация первого задания
         /// </summary>
-        public void Run1(bool init)
-        {
-            if (init)
-            {
-                // Предварительная очистка списка
-                db.Exercise1.RemoveRange(db.Exercise1.ToList());
-            }
-
+        public void Run1()
+        {          
             // Общее количество сотрудников
             int characterCount = db.Characters.Count();
 
@@ -32,6 +26,10 @@ namespace Bmstu.IU6.Teaching
                 ThenBy(a => a.Name).
                 ToList())
             {
+                // Очистка старых данных
+                var old = db.Exercise1.Where(a => a.Student.ID == student.ID).ToList();
+                db.Exercise1.RemoveRange(old);
+
                 Console.Write(".");
 
                 // Список сотрудников

@@ -11,7 +11,7 @@ namespace Bmstu.IU6.Teaching
         static void Main(string[] args)
         {
             var e1 = new Exercise21();
-            // e1.Run1();
+            e1.Run1();
             e1.Run();
             Console.WriteLine("Сделано");
             Console.ReadLine();
