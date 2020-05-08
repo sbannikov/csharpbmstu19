@@ -1,0 +1,492 @@
+[
+  {
+    "ValueUuid": "EB7551B5A4B8EAA77D35141B4D81D9BE",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -37,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "C5F60C14C50DD5F40EB0D06ECB72F18F",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 7,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "46194172E4460944E596D4EF7DBF9807",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 16,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "456416145D7A86E53B73957FEC33D24D",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -47,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "44424A4B86E58E96FB5FB5396CEEE098",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 44,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "C1E6843EB550D3764F72BCD95A54CD15",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 2,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "4E1F839254BAE0DF6426723073DC7C48",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 0,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "A44E4C71C7C949A3174CB4E7CEA0799F",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 16,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "71DAC478830A2C9A8059F33434DDB599",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -23,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "ABF14024F776060CEA665C84E04B64E0",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 31,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "D1257D396FAF6009070A383488A3CE9E",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 3,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "963C94555E344A8E55F6C2523C34E10E",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 26,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "25F7233D5D28D41B794B0C7709264FCB",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 24,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "8E00E79EE3CB976F54AF7786EDC6AAD1",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -10,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "3F9BB1B1A5CBB20C62B83F48A33EF160",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -11,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "2E5235B8AC0DBADF6011CF65889AA29A",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 17,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "2211F0FEC1495A2022DC6315F70F8158",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 43,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "6CEE7357225A26BA8FA33C1285C804E8",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 17,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "B2ACA77C24522B2E1EECD719B641D8FE",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 1,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "8C08844D8D1F4F29E35A28ED0D244FC6",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -40,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "A51A7D6A4B9104930755019BE6F4530B",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -2,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "E35FEF5ED67EB23698EE271CDC7EE8FA",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -20,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "DF345A025FBA8A94B3282F696EED1048",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -47,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "4300813B2B501454AB63383C64C33E0C",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -10,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "94C9BA4E7BED31101F7B6BDCAC2F15CC",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -36,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "7EF68468C350CDB565421038AD5CF3D8",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 26,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "11957708DC59A82F7DFF6F5B743940E5",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -48,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "A98A5BFB4FFF432B9149158D7B8BE453",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -32,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "FA589F55FECC9949734E2213F523FAC7",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": 49,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "E6D88A2E5DF9471A1409222A5A89C6BB",
+    "TimestampStart": 1583470619,
+    "TimestampEnd": 1583470619,
+    "Value": -11,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "B2749EC0C035B0B8DDD2AA1103307FF0",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 39,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "61C7CFF3A3C8666B69448621853B23D8",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -43,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "D46343B05E6AFDCF3D247AD73BA83F29",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 43,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "B367EA18F4D77406490E3F8A1FF12C31",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 18,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "03513C5E703348B79DBCB7341D98EEB5",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -49,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "54B09B010AB44DCA14C5A5BB90666BE9",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 46,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "17930297BA1B5F7FA679AA6996A72720",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 8,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "D37B5F9F3B9CC47FC5C5F61720B5ECE9",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -11,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "5351CAD13B8B79560030C825C12A8498",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 12,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "8F9FD88BCCF662DA525AB0C51FDD4AF3",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 18,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "0AA632FE23F0D644A895F44B4959C0EB",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 31,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "61073FDDCD2D287C9C14B672B8C235C2",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 33,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "F802FD326E4628081C37EA037CE50548",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -35,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "EB1328AB93575FB30946522FF22A31DC",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 45,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "8748E4837DC35EE2C33F090C5B8433E6",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 32,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "98B78AAA6DD51698529F40D2A8FF2EB3",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -18,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "3FF7A0996DD138D4B0445CF44789C62A",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -21,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "965E50682311A2F3E33FAB9B3398155B",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -32,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "DD83C55BD77354B4E6314BBD15142A3A",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 16,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "83F1ABBFBBC24DBB450D11F258762959",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -39,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "5000E1C83EED30777D282EF865751D22",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -31,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "999FC5F079A5A4F0AFF292B9833D0B5B",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -17,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "3B105A78F961143E39B5B70F24D7FF33",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 13,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "88BF278AF6D31283B3F81E417D26F353",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -1,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "1794A022FECD90D488F6A99AC1E3C536",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -14,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "E858B31E5A8083F6314250C67F77D24B",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -49,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "AFD66C32451FB06BB97BE1E114A2C36A",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 43,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "C9DF13020D601A9F620BE9271F7F56AD",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 25,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "967FC4E0D47110F218154EFC8D5FB0C2",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 24,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "ABC38D0B05E19E27EE5FE2E2B8979502",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 11,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  },
+  {
+    "ValueUuid": "F69DD508F383A3D66B2E3A472289289F",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -25,
+    "ParameterId": "03b70bcf-209a-41bb-b68d-d52f5a522305"
+  },
+  {
+    "ValueUuid": "DFC2A9B13CB5358ADD12B3BDFE08DAA8",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -30,
+    "ParameterId": "2cbcd81d-8f89-4f17-b06d-c5d01b6db40b"
+  },
+  {
+    "ValueUuid": "EF4C04D60BC06096760A2532141D9810",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 28,
+    "ParameterId": "675aed3f-e1e0-4477-ade2-b6af164128fe"
+  },
+  {
+    "ValueUuid": "408B9F88138602F6DC3D4F4D08D91473",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -21,
+    "ParameterId": "72124bbf-abf4-4ae5-885f-8f0a11176812"
+  },
+  {
+    "ValueUuid": "E9A14597C4AA00E65493517E2D1BB80E",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -46,
+    "ParameterId": "74a1455d-919e-4652-b65d-5a4ce9d46a66"
+  },
+  {
+    "ValueUuid": "E952C2C1236F10D16E985BC28490BBA0",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 30,
+    "ParameterId": "83711d53-4ddb-4441-b659-37f75fa4cadf"
+  },
+  {
+    "ValueUuid": "C452E55F7C82891D4BF363D83C5C30B9",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -14,
+    "ParameterId": "a106516c-9739-4616-b071-ae23d626b65e"
+  },
+  {
+    "ValueUuid": "98639F2E19A8FE0AF53ED292F144FCD8",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": 42,
+    "ParameterId": "bfa78ff7-506d-444c-af94-38740a6ba515"
+  },
+  {
+    "ValueUuid": "711DDA7E779C933B2CF734D357D7AD8C",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -48,
+    "ParameterId": "d8669c5a-c05a-436d-beea-480dd566e6db"
+  },
+  {
+    "ValueUuid": "54CBCBCB4D32ACB6ABDCDDB5E3616C8C",
+    "TimestampStart": 1583470620,
+    "TimestampEnd": 1583470620,
+    "Value": -38,
+    "ParameterId": "e5260500-8697-4edb-b038-bdbcbbc7873f"
+  }
+]

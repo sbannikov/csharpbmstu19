@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz5_2cleint_recieve", "dz5_2\dz5_2cleint_recieve.csproj", "{7AF0F2C6-49B3-432F-B453-5EEB418D8421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dz5_2sending_app", "sending_app\dz5_2sending_app.csproj", "{E79AD165-DEAC-43AF-8334-B6C129D5720D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF0F2C6-49B3-432F-B453-5EEB418D8421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF0F2C6-49B3-432F-B453-5EEB418D8421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF0F2C6-49B3-432F-B453-5EEB418D8421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF0F2C6-49B3-432F-B453-5EEB418D8421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79AD165-DEAC-43AF-8334-B6C129D5720D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79AD165-DEAC-43AF-8334-B6C129D5720D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79AD165-DEAC-43AF-8334-B6C129D5720D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79AD165-DEAC-43AF-8334-B6C129D5720D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11303E4F-AAAB-40BC-AEFE-D3F5699820A8}
+	EndGlobalSection
+EndGlobal
