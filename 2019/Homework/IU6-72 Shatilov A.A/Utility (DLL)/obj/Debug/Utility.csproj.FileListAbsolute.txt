@@ -1,6 +1,0 @@
-C:\Users\Светлана\Desktop\C# Homework\Utility\obj\Debug\Utility.csprojAssemblyReference.cache
-C:\Users\Светлана\Desktop\C# Homework\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
-C:\Users\Светлана\Desktop\C# Homework\Utility\bin\Debug\Utility.dll
-C:\Users\Светлана\Desktop\C# Homework\Utility\bin\Debug\Utility.pdb
-C:\Users\Светлана\Desktop\C# Homework\Utility\obj\Debug\Utility.dll
-C:\Users\Светлана\Desktop\C# Homework\Utility\obj\Debug\Utility.pdb
