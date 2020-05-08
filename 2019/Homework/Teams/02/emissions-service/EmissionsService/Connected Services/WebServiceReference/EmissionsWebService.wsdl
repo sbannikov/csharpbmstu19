@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="UploadData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="tns:ArrayOfTransferData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTransferData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TransferData" nillable="true" type="tns:TransferData" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TransferData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="valueUuid" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="timestampStart" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="timestampEnd" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="parameterUuid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="unit" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="type" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sensorUuid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sourceUuid" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="pniv" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="UploadDataResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="UploadDataSoapIn">
+    <wsdl:part name="parameters" element="tns:UploadData" />
+  </wsdl:message>
+  <wsdl:message name="UploadDataSoapOut">
+    <wsdl:part name="parameters" element="tns:UploadDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EmissionsWebServiceSoap">
+    <wsdl:operation name="UploadData">
+      <wsdl:input message="tns:UploadDataSoapIn" />
+      <wsdl:output message="tns:UploadDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EmissionsWebServiceSoap" type="tns:EmissionsWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadData">
+      <soap:operation soapAction="http://tempuri.org/UploadData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EmissionsWebServiceSoap12" type="tns:EmissionsWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="UploadData">
+      <soap12:operation soapAction="http://tempuri.org/UploadData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EmissionsWebService">
+    <wsdl:port name="EmissionsWebServiceSoap" binding="tns:EmissionsWebServiceSoap">
+      <soap:address location="https://localhost:44383/EmissionsWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EmissionsWebServiceSoap12" binding="tns:EmissionsWebServiceSoap12">
+      <soap12:address location="https://localhost:44383/EmissionsWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
