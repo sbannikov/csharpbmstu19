@@ -1,0 +1,548 @@
+14.02.2020 13:59:08 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG1\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+14.02.2020 13:59:08 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG1\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG1\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 6B855EA4E6DCF966B747B43DD1DB1A57 - Бэкап дистрибутивов\REG1\SetupplgNetControl\SetupplgNetControl.exe
+14.02.2020 13:59:08 4FDB95F1DBDDB55C86EF42869B547837 - Бэкап дистрибутивов\REG1\SetupplgUDP_Input\SetupplgUDP_Input.exe
+14.02.2020 13:59:08 1F791F011ABEFA2649E2F170251BA8FD - Бэкап дистрибутивов\REG1\SetupREG1\SetupREG1.exe
+14.02.2020 13:59:08 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG2\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+14.02.2020 13:59:08 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG2\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+14.02.2020 13:59:08 1DE53F5107EB79B7B384083B1E047CDA - Бэкап дистрибутивов\REG2\plgNetControl\plgNetControl.exe
+14.02.2020 13:59:08 B7F987E8D6989A8A10B760CC2E347691 - Бэкап дистрибутивов\REG2\plgUDP_Input\plgUDP_Input.exe
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG2\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 B81EBB022C31D29DF18D6E51D59C0E30 - Бэкап дистрибутивов\REG2\SetupREG2\SetupREG2.exe
+14.02.2020 13:59:08 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG3\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+14.02.2020 13:59:08 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG3\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+14.02.2020 13:59:08 A2E87F5A8D0565AF93FB64A2E7769918 - Бэкап дистрибутивов\REG3\plgNetControl\plgNetControl.exe
+14.02.2020 13:59:08 277AD76C5001797662D2A17A1D693775 - Бэкап дистрибутивов\REG3\plgUDP_Input\plgUDP_Input.exe
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG3\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 9CA21E4EC69342F6A1E042700D9426EC - Бэкап дистрибутивов\REG3\SetupREG3\SetupREG3.exe
+14.02.2020 13:59:08 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG4\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+14.02.2020 13:59:08 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG4\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+14.02.2020 13:59:08 166969798ECCFFED0412A93314EAEC56 - Бэкап дистрибутивов\REG4\plgNetControl\plgNetControl.exe
+14.02.2020 13:59:08 A68B268B963E0966F6D4374D581F81D8 - Бэкап дистрибутивов\REG4\plgUDP_Input\plgUDP_Input.exe
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG4\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 03729A9FF72E942A401759938204BA38 - Бэкап дистрибутивов\REG4\SetupREG4\SetupREG4.exe
+14.02.2020 13:59:08 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG5\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+14.02.2020 13:59:08 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG5\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+14.02.2020 13:59:08 8EAAA3C070BDEB4F6B8EF29173A818C1 - Бэкап дистрибутивов\REG5\plgNetControl\plgNetControl.exe
+14.02.2020 13:59:08 BB27EDC82AD3F9F53E5FA4B771C9BF63 - Бэкап дистрибутивов\REG5\plgUDP_Input\plgUDP_Input.exe
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG5\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 1573DD56D168846A646B47EA1C668B97 - Бэкап дистрибутивов\REG5\SetupREG5\SetupREG5.exe
+14.02.2020 13:59:08 E7DA4A361F6D7FE7004589786084E78C - Бэкап дистрибутивов\Базовое и покупное ПО\EsterelSCADE642\EsterelSCADE642.zip
+14.02.2020 13:59:08 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\Базовое и покупное ПО\rc_cleanup v1.1\rc_cleanup v1.1.exe
+14.02.2020 13:59:08 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+14.02.2020 13:59:08 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+14.02.2020 13:59:08 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+14.02.2020 13:59:08 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+14.02.2020 13:59:08 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+14.02.2020 13:59:08 3DB7497ED602D300DACFD332E70F816B - Бэкап дистрибутивов\Базовое и покупное ПО\SetupNIXNET1800\SetupNIXNET1800.exe
+14.02.2020 13:59:08 DCF77F67F583D93B22CE46103C3715C6 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-expert-client-setup\winpos-3.2.5.14-expert-client-setup.exe
+14.02.2020 13:59:08 2AA4DC4622977807B004C911515D5C81 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-server-setup\winpos-3.2.5.14-server-setup.exe
+14.02.2020 13:59:08 D1A2AEB7B5B74E12C9B1E206AC201ED8 - Бэкап дистрибутивов\ПК управления\SetupAircraftControl\SetupAircraftControl.exe
+14.02.2020 13:59:08 16A11346BF4C9C4F01256AED90A35A1E - Бэкап дистрибутивов\ПК управления\SetupAircraftControlRead\SetupAircraftControlRead.exe
+14.02.2020 13:59:08 826BE5BB791B5AA17A09ECE61B823F42 - Бэкап дистрибутивов\ПК управления\SetupAppManager\SetupAppManager.exe
+14.02.2020 13:59:08 4417868F8A9C59E5645120ECBFCC4169 - Бэкап дистрибутивов\ПК управления\SetupArinc-indicator\SetupArinc-indicator.exe
+14.02.2020 13:59:08 A6FBE2FB97B2DEE868A87760D7E77E23 - Бэкап дистрибутивов\ПК управления\SetupARINC-Tester\SetupARINC-Tester.exe
+14.02.2020 13:59:08 BFCFDF84DD7C1CBB57C167D1B57A301F - Бэкап дистрибутивов\ПК управления\SetupElcus-ARINC-tester\SetupElcus-ARINC-tester.exe
+14.02.2020 13:59:08 9ECC8E4B0F76E53A4C519D7C45AA43AE - Бэкап дистрибутивов\ПК управления\SetupElcusArincTest\SetupElcusArincTest.exe
+14.02.2020 13:59:08 BE3B32E62F27F289339EF1AA87CA768D - Бэкап дистрибутивов\ПК управления\SetupESS\SetupESS.exe
+14.02.2020 13:59:08 569B0E1396FE788D9B27FE7A201834B2 - Бэкап дистрибутивов\ПК управления\SetupHSctrl\SetupHSctrl.exe
+14.02.2020 13:59:08 3E95DC2C04AB943012314511802F8E14 - Бэкап дистрибутивов\ПК управления\SetupHSctrlBezOborotov\SetupHSctrlBezOborotov.exe
+14.02.2020 13:59:08 D17DCD57B6B78FD0882BA797BB48175A - Бэкап дистрибутивов\ПК управления\SetupKSUmain\SetupKSUmain.exe
+14.02.2020 13:59:08 75976648DDFDF8816811C6FC7B319224 - Бэкап дистрибутивов\ПК управления\SetupMan-switch-monitor\SetupMan-switch-monitor.exe
+14.02.2020 13:59:08 AD5BD8A9873FB9A0E6C8E5BE8A857DD9 - Бэкап дистрибутивов\ПК управления\SetupReverse\SetupReverse.exe
+14.02.2020 13:59:08 98B5A74DD82CBF74A295C26CC3451940 - Бэкап дистрибутивов\ПК управления\SetupRUVSH\SetupRUVSH.exe
+14.02.2020 13:59:08 C28B1EA8A32D5E76831DC325978F473A - Бэкап дистрибутивов\ПК управления\SetupShassiCtrl\SetupShassiCtrl.exe
+14.02.2020 13:59:08 8ECC8F84DC0D908A23332C06D5192CF8 - Бэкап дистрибутивов\ПК управления\SetupSignalsKSU\SetupSignalsKSU.exe
+14.02.2020 13:59:08 330BAE50E42FAAD09485E1274F5E57D0 - Бэкап дистрибутивов\ПК управления\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+14.02.2020 13:59:08 D678E96F1DC5FFD85BDEDEB497538438 - Бэкап дистрибутивов\ПК управления\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+14.02.2020 13:59:08 E1EE3DD1D2A90FC6AC4EE60FB210572B - Бэкап дистрибутивов\ПК управления\SetupSMTDstate\SetupSMTDstate.exe
+14.02.2020 13:59:08 D8565BE796CD2137728A0385035C0040 - Бэкап дистрибутивов\ПК управления\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+14.02.2020 13:59:08 04DC5ACB833ECD292CE2DC4AC248E14B - Бэкап дистрибутивов\ПК управления\SetupSTKstate\SetupSTKstate.exe
+14.02.2020 13:59:08 58AE9C12535917305579BA5F41DA46DE - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+14.02.2020 13:59:08 F688B660434BB3DB88E40A53FBE61C93 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-STK\SetupSUOSO-STK.exe
+14.02.2020 13:59:08 93AE9EB07C652386F58E68AD498662A3 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+14.02.2020 13:59:08 D20590BCC3C95287EA0BACF3F8FD8CF8 - Бэкап дистрибутивов\ПК управления\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+14.02.2020 13:59:08 73365A5424227FD012EDB45AB4AB9EB2 - Бэкап дистрибутивов\ПК управления\SetupSUPKstate\SetupSUPKstate.exe
+14.02.2020 13:59:08 C0BDC8C8A57757B0DCA08B3C2031013E - Бэкап дистрибутивов\ПК управления\SetupTest-Relay-card\SetupTest-Relay-card.exe
+14.02.2020 13:59:08 C34C60AC9891367F590A636127DD0F4B - Бэкап дистрибутивов\ПК управления\SetupUTS\SetupUTS.exe
+14.02.2020 13:59:08 EA571E5FE37D9A1235FA909CBF5DD21B - Бэкап дистрибутивов\ПК управления\SetupUTSwin32\SetupUTSwin32.exe
+14.02.2020 13:59:08 11978D6EABE4DF7EB7F7855FA4F134EE - Бэкап дистрибутивов\ПК управления\SetupWOWControl\SetupWOWControl.exe
+14.02.2020 13:59:08 51C5D308CE17ABED6AB505810E5107C0 - Бэкап дистрибутивов\РМИ Динамики\SetupDynamicConfig\SetupDynamicConfig.exe
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskSend\SetupRunTaskSend.exe
+14.02.2020 13:59:08 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+14.02.2020 13:59:08 A85CEF76A3ECC36D3DA4029E7970B093 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupCommutation\SetupCommutation.exe
+14.02.2020 13:59:08 551D72DC6D0E57D8F8C2327718E563F9 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemoCheck\SetupMnemoCheck.exe
+14.02.2020 13:59:08 8A31D5ACCEE74F9A589F752581540537 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemosh\SetupMnemosh.exe
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskSend\SetupRunTaskSend.exe
+14.02.2020 13:59:08 64C6A9E153B52457D78362DB90B3BAFE - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupSES\SetupSES.exe
+14.02.2020 13:59:08 0501236985D0789042461A5C54A8091D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGMU\SetupUKGMU.exe
+14.02.2020 13:59:08 20E18A368D2E880BEE866040FD641A4C - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGS\SetupUKGS.exe
+14.02.2020 13:59:08 7750BA2053B6219EAF7A74E7D7DA6E35 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKIPr\SetupUKIPr.exe
+14.02.2020 13:59:08 46FF98E3158D71FA4DC94EB739BF4E74 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKOU\SetupUKOU.exe
+14.02.2020 13:59:08 E4E7D6C59C6ADC8A58875761E2350C6D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKRUVSH\SetupUKRUVSH.exe
+14.02.2020 13:59:08 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\РМИ №2 (ГС)\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+14.02.2020 13:59:08 14AEAA4EEEFD3B3A5E6547DE0EF3B5FB - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupPanelGS\SetupPanelGS.exe
+14.02.2020 13:59:08 6ABEAD11AC13C870CB612A4C2963BB43 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupReverse\SetupReverse.exe
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+14.02.2020 13:59:08 B436D29F9EAD7BC0DA20A6E0FC52D4F8 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearCycle\SetupGearCycle.exe
+14.02.2020 13:59:08 1191688CDCF886AB258F15C124BAC17C - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearSensors\SetupGearSensors.exe
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 22F91FB25A04FBF105676F764D62E5C7 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupShassiObj\SetupShassiObj.exe
+14.02.2020 13:59:08 1D5E798D7D0F0A6E70F80F87BFB3AEB5 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+14.02.2020 13:59:08 87E93EA5255DCEC8CC95B9F754F6E34E - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+14.02.2020 13:59:08 CCA49D2FCB51EA1DEF4589BD7A20717A - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+14.02.2020 13:59:08 4A3216B6A9519835ED4BCC4356AB72E9 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+14.02.2020 13:59:08 A9057B77C8921E785B5BEB006E52D246 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-STK\SetupSUOSO-STK.exe
+14.02.2020 13:59:08 739EAC2DC7126380D693C18B122C2058 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+14.02.2020 13:59:08 02798F4800BD117FAAC834F912214A5F - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+14.02.2020 13:59:08 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\РМИ №5 (КСУ)\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+14.02.2020 13:59:08 C2A71277A1ADE7D861B407ABC76374FD - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupImOU\SetupImOU.exe
+14.02.2020 13:59:08 E70B2A00E4978AE289A0F7475A77F03A - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUIPDMM\SetupKSUIPDMM.exe
+14.02.2020 13:59:08 926F73639083DBD918CE12610CA4ECF3 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUMAIN\SetupKSUMAIN.exe
+14.02.2020 13:59:08 9C06836377AAC5C53A356B87D853A1DA - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupNetControlMain\SetupNetControlMain.exe
+14.02.2020 13:59:08 AC0DBFA32C4F7BC3EB06F2A5B610AB3B - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupPluginUDPInput\SetupPluginUDPInput.exe
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 6AECA14D3E8FD50ED5504CDC1A60A80E - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsKSU\SetupSignalsKSU.exe
+14.02.2020 13:59:08 57BF6322E94C230B34ED088F9CB60F81 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+14.02.2020 13:59:08 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\РМИ №6 (КСУ)\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+14.02.2020 13:59:08 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №6 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 93A396D808FA875E24080A63B319BBEC - Бэкап дистрибутивов\РМИ №6 (КСУ)\XLSToArinc_setup\XLSToArinc_setup.exe
+14.02.2020 13:59:08 A0468BF994FAB1558A4F2DBC1127A475 - Бэкап дистрибутивов\РМП ПК№1\SetupCSO\SetupCSO.exe
+14.02.2020 13:59:08 9843B0955889BAD8DCA5181708DDBA63 - Бэкап дистрибутивов\РМП ПК№1\SetupPFD\SetupPFD.exe
+14.02.2020 13:59:08 1E9542F72F56E33405D0E81E8D64A1AB - Бэкап дистрибутивов\РМП ПК№1\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 E80F7809EB0F9D4DC006A8401B849A40 - Бэкап дистрибутивов\РМП ПК№1\SetupStarter\SetupStarter.exe
+14.02.2020 13:59:08 35B16B0FB1AE75DF4B30AE5A809B51C3 - Бэкап дистрибутивов\РМП ПК№2\SetupBRK\SetupBRK.exe
+14.02.2020 13:59:08 81317170683BDDF50836B09D12337B89 - Бэкап дистрибутивов\РМП ПК№2\SetupCASProxy\SetupCASProxy.exe
+14.02.2020 13:59:08 71AC64A26BC2B8465E0B04EEED202690 - Бэкап дистрибутивов\РМП ПК№2\SetupEWD\SetupEWD.exe
+14.02.2020 13:59:08 0E03AFD33989A51406E5EEAAB97F5901 - Бэкап дистрибутивов\РМП ПК№2\SetupFCS\SetupFCS.exe
+14.02.2020 13:59:08 DABA9DE005955EC0035B71EB358E2610 - Бэкап дистрибутивов\РМП ПК№2\SetupGearLever\SetupGearLever.exe
+14.02.2020 13:59:08 C00C7B59CF84AD54B843BE212F2413E1 - Бэкап дистрибутивов\РМП ПК№2\SetupHYD\SetupHYD.exe
+14.02.2020 13:59:08 3498921E35237BA67090655CEA5B46F6 - Бэкап дистрибутивов\РМП ПК№2\SetupPFD\SetupPFD.exe
+14.02.2020 13:59:08 2B57AF9A3B432ED8FFD3622EF2D80426 - Бэкап дистрибутивов\РМП ПК№2\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 F9518547CE04684795016AF7A2C856A5 - Бэкап дистрибутивов\РМП ПК№2\SetupScadeHost\SetupScadeHost.exe
+14.02.2020 13:59:08 21B4948E427961DFB46DC253E6F31FCF - Бэкап дистрибутивов\РМП ПК№2\SetupStarter\SetupStarter.exe
+14.02.2020 13:59:08 5F1AACC724560658F184E48567B24C98 - Бэкап дистрибутивов\РМП ПК№3\SetupBRK\SetupBRK.exe
+14.02.2020 13:59:08 CE5F88E5EDC07E2BD87D637A2B7149E1 - Бэкап дистрибутивов\РМП ПК№3\SetupCASProxy\SetupCASProxy.exe
+14.02.2020 13:59:08 268295BFAC3D5476A775311627070BC3 - Бэкап дистрибутивов\РМП ПК№3\SetupCSO\SetupCSO.exe
+14.02.2020 13:59:08 844730DF3CEE35EAF3F7F44C204C051C - Бэкап дистрибутивов\РМП ПК№3\SetupEWD\SetupEWD.exe
+14.02.2020 13:59:08 6732B99A87033B141759899541F151CA - Бэкап дистрибутивов\РМП ПК№3\SetupFCS\SetupFCS.exe
+14.02.2020 13:59:08 9C663744C1865403CFF524EFABD6B3D3 - Бэкап дистрибутивов\РМП ПК№3\SetupHYD\SetupHYD.exe
+14.02.2020 13:59:08 BF06E76DDD19E4397FBE4403A73F269C - Бэкап дистрибутивов\РМП ПК№3\SetupRunTaskReceive\SetupRunTaskReceive.exe
+14.02.2020 13:59:08 415D9E15694AE0FBF6CF2BE6B0A0EC8E - Бэкап дистрибутивов\РМП ПК№3\SetupScadeHost\SetupScadeHost.exe
+14.02.2020 13:59:08 07C4B8532E2B2C43813A9B0C6950175C - Бэкап дистрибутивов\РМП ПК№3\SetupStarter\SetupStarter.exe
+14.02.2020 13:59:08 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМП Сервер (его вроде как убрали)\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:03:42 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG1\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:03:42 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG1\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG1\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 6B855EA4E6DCF966B747B43DD1DB1A57 - Бэкап дистрибутивов\REG1\SetupplgNetControl\SetupplgNetControl.exe
+17.02.2020 15:03:42 4FDB95F1DBDDB55C86EF42869B547837 - Бэкап дистрибутивов\REG1\SetupplgUDP_Input\SetupplgUDP_Input.exe
+17.02.2020 15:03:42 1F791F011ABEFA2649E2F170251BA8FD - Бэкап дистрибутивов\REG1\SetupREG1\SetupREG1.exe
+17.02.2020 15:03:42 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG2\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:03:42 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG2\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:03:42 1DE53F5107EB79B7B384083B1E047CDA - Бэкап дистрибутивов\REG2\plgNetControl\plgNetControl.exe
+17.02.2020 15:03:42 B7F987E8D6989A8A10B760CC2E347691 - Бэкап дистрибутивов\REG2\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG2\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 B81EBB022C31D29DF18D6E51D59C0E30 - Бэкап дистрибутивов\REG2\SetupREG2\SetupREG2.exe
+17.02.2020 15:03:42 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG3\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:03:42 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG3\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:03:42 A2E87F5A8D0565AF93FB64A2E7769918 - Бэкап дистрибутивов\REG3\plgNetControl\plgNetControl.exe
+17.02.2020 15:03:42 277AD76C5001797662D2A17A1D693775 - Бэкап дистрибутивов\REG3\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG3\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 9CA21E4EC69342F6A1E042700D9426EC - Бэкап дистрибутивов\REG3\SetupREG3\SetupREG3.exe
+17.02.2020 15:03:42 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG4\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:03:42 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG4\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:03:42 166969798ECCFFED0412A93314EAEC56 - Бэкап дистрибутивов\REG4\plgNetControl\plgNetControl.exe
+17.02.2020 15:03:42 A68B268B963E0966F6D4374D581F81D8 - Бэкап дистрибутивов\REG4\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG4\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 03729A9FF72E942A401759938204BA38 - Бэкап дистрибутивов\REG4\SetupREG4\SetupREG4.exe
+17.02.2020 15:03:42 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG5\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:03:42 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG5\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:03:42 8EAAA3C070BDEB4F6B8EF29173A818C1 - Бэкап дистрибутивов\REG5\plgNetControl\plgNetControl.exe
+17.02.2020 15:03:42 BB27EDC82AD3F9F53E5FA4B771C9BF63 - Бэкап дистрибутивов\REG5\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG5\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 1573DD56D168846A646B47EA1C668B97 - Бэкап дистрибутивов\REG5\SetupREG5\SetupREG5.exe
+17.02.2020 15:03:42 E7DA4A361F6D7FE7004589786084E78C - Бэкап дистрибутивов\Базовое и покупное ПО\EsterelSCADE642\EsterelSCADE642.zip
+17.02.2020 15:03:42 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\Базовое и покупное ПО\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:03:42 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+17.02.2020 15:03:42 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+17.02.2020 15:03:42 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+17.02.2020 15:03:42 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+17.02.2020 15:03:42 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+17.02.2020 15:03:42 3DB7497ED602D300DACFD332E70F816B - Бэкап дистрибутивов\Базовое и покупное ПО\SetupNIXNET1800\SetupNIXNET1800.exe
+17.02.2020 15:03:42 DCF77F67F583D93B22CE46103C3715C6 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-expert-client-setup\winpos-3.2.5.14-expert-client-setup.exe
+17.02.2020 15:03:42 2AA4DC4622977807B004C911515D5C81 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-server-setup\winpos-3.2.5.14-server-setup.exe
+17.02.2020 15:03:42 D1A2AEB7B5B74E12C9B1E206AC201ED8 - Бэкап дистрибутивов\ПК управления\SetupAircraftControl\SetupAircraftControl.exe
+17.02.2020 15:03:42 16A11346BF4C9C4F01256AED90A35A1E - Бэкап дистрибутивов\ПК управления\SetupAircraftControlRead\SetupAircraftControlRead.exe
+17.02.2020 15:03:42 826BE5BB791B5AA17A09ECE61B823F42 - Бэкап дистрибутивов\ПК управления\SetupAppManager\SetupAppManager.exe
+17.02.2020 15:03:42 4417868F8A9C59E5645120ECBFCC4169 - Бэкап дистрибутивов\ПК управления\SetupArinc-indicator\SetupArinc-indicator.exe
+17.02.2020 15:03:42 A6FBE2FB97B2DEE868A87760D7E77E23 - Бэкап дистрибутивов\ПК управления\SetupARINC-Tester\SetupARINC-Tester.exe
+17.02.2020 15:03:42 BFCFDF84DD7C1CBB57C167D1B57A301F - Бэкап дистрибутивов\ПК управления\SetupElcus-ARINC-tester\SetupElcus-ARINC-tester.exe
+17.02.2020 15:03:42 9ECC8E4B0F76E53A4C519D7C45AA43AE - Бэкап дистрибутивов\ПК управления\SetupElcusArincTest\SetupElcusArincTest.exe
+17.02.2020 15:03:42 BE3B32E62F27F289339EF1AA87CA768D - Бэкап дистрибутивов\ПК управления\SetupESS\SetupESS.exe
+17.02.2020 15:03:42 569B0E1396FE788D9B27FE7A201834B2 - Бэкап дистрибутивов\ПК управления\SetupHSctrl\SetupHSctrl.exe
+17.02.2020 15:03:42 3E95DC2C04AB943012314511802F8E14 - Бэкап дистрибутивов\ПК управления\SetupHSctrlBezOborotov\SetupHSctrlBezOborotov.exe
+17.02.2020 15:03:42 D17DCD57B6B78FD0882BA797BB48175A - Бэкап дистрибутивов\ПК управления\SetupKSUmain\SetupKSUmain.exe
+17.02.2020 15:03:42 75976648DDFDF8816811C6FC7B319224 - Бэкап дистрибутивов\ПК управления\SetupMan-switch-monitor\SetupMan-switch-monitor.exe
+17.02.2020 15:03:42 AD5BD8A9873FB9A0E6C8E5BE8A857DD9 - Бэкап дистрибутивов\ПК управления\SetupReverse\SetupReverse.exe
+17.02.2020 15:03:42 98B5A74DD82CBF74A295C26CC3451940 - Бэкап дистрибутивов\ПК управления\SetupRUVSH\SetupRUVSH.exe
+17.02.2020 15:03:42 C28B1EA8A32D5E76831DC325978F473A - Бэкап дистрибутивов\ПК управления\SetupShassiCtrl\SetupShassiCtrl.exe
+17.02.2020 15:03:42 8ECC8F84DC0D908A23332C06D5192CF8 - Бэкап дистрибутивов\ПК управления\SetupSignalsKSU\SetupSignalsKSU.exe
+17.02.2020 15:03:42 330BAE50E42FAAD09485E1274F5E57D0 - Бэкап дистрибутивов\ПК управления\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:03:42 D678E96F1DC5FFD85BDEDEB497538438 - Бэкап дистрибутивов\ПК управления\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+17.02.2020 15:03:42 E1EE3DD1D2A90FC6AC4EE60FB210572B - Бэкап дистрибутивов\ПК управления\SetupSMTDstate\SetupSMTDstate.exe
+17.02.2020 15:03:42 D8565BE796CD2137728A0385035C0040 - Бэкап дистрибутивов\ПК управления\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+17.02.2020 15:03:42 04DC5ACB833ECD292CE2DC4AC248E14B - Бэкап дистрибутивов\ПК управления\SetupSTKstate\SetupSTKstate.exe
+17.02.2020 15:03:42 58AE9C12535917305579BA5F41DA46DE - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+17.02.2020 15:03:42 F688B660434BB3DB88E40A53FBE61C93 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-STK\SetupSUOSO-STK.exe
+17.02.2020 15:03:42 93AE9EB07C652386F58E68AD498662A3 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+17.02.2020 15:03:42 D20590BCC3C95287EA0BACF3F8FD8CF8 - Бэкап дистрибутивов\ПК управления\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+17.02.2020 15:03:42 73365A5424227FD012EDB45AB4AB9EB2 - Бэкап дистрибутивов\ПК управления\SetupSUPKstate\SetupSUPKstate.exe
+17.02.2020 15:03:42 C0BDC8C8A57757B0DCA08B3C2031013E - Бэкап дистрибутивов\ПК управления\SetupTest-Relay-card\SetupTest-Relay-card.exe
+17.02.2020 15:03:42 C34C60AC9891367F590A636127DD0F4B - Бэкап дистрибутивов\ПК управления\SetupUTS\SetupUTS.exe
+17.02.2020 15:03:42 EA571E5FE37D9A1235FA909CBF5DD21B - Бэкап дистрибутивов\ПК управления\SetupUTSwin32\SetupUTSwin32.exe
+17.02.2020 15:03:42 11978D6EABE4DF7EB7F7855FA4F134EE - Бэкап дистрибутивов\ПК управления\SetupWOWControl\SetupWOWControl.exe
+17.02.2020 15:03:42 51C5D308CE17ABED6AB505810E5107C0 - Бэкап дистрибутивов\РМИ Динамики\SetupDynamicConfig\SetupDynamicConfig.exe
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:03:42 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+17.02.2020 15:03:42 A85CEF76A3ECC36D3DA4029E7970B093 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupCommutation\SetupCommutation.exe
+17.02.2020 15:03:42 551D72DC6D0E57D8F8C2327718E563F9 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemoCheck\SetupMnemoCheck.exe
+17.02.2020 15:03:42 8A31D5ACCEE74F9A589F752581540537 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemosh\SetupMnemosh.exe
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:03:42 64C6A9E153B52457D78362DB90B3BAFE - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupSES\SetupSES.exe
+17.02.2020 15:03:42 0501236985D0789042461A5C54A8091D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGMU\SetupUKGMU.exe
+17.02.2020 15:03:42 20E18A368D2E880BEE866040FD641A4C - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGS\SetupUKGS.exe
+17.02.2020 15:03:42 7750BA2053B6219EAF7A74E7D7DA6E35 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKIPr\SetupUKIPr.exe
+17.02.2020 15:03:42 46FF98E3158D71FA4DC94EB739BF4E74 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKOU\SetupUKOU.exe
+17.02.2020 15:03:42 E4E7D6C59C6ADC8A58875761E2350C6D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKRUVSH\SetupUKRUVSH.exe
+17.02.2020 15:03:42 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\РМИ №2 (ГС)\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+17.02.2020 15:03:42 14AEAA4EEEFD3B3A5E6547DE0EF3B5FB - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupPanelGS\SetupPanelGS.exe
+17.02.2020 15:03:42 6ABEAD11AC13C870CB612A4C2963BB43 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupReverse\SetupReverse.exe
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+17.02.2020 15:03:42 B436D29F9EAD7BC0DA20A6E0FC52D4F8 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearCycle\SetupGearCycle.exe
+17.02.2020 15:03:42 1191688CDCF886AB258F15C124BAC17C - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearSensors\SetupGearSensors.exe
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 22F91FB25A04FBF105676F764D62E5C7 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupShassiObj\SetupShassiObj.exe
+17.02.2020 15:03:42 1D5E798D7D0F0A6E70F80F87BFB3AEB5 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:03:42 87E93EA5255DCEC8CC95B9F754F6E34E - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+17.02.2020 15:03:42 CCA49D2FCB51EA1DEF4589BD7A20717A - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+17.02.2020 15:03:42 4A3216B6A9519835ED4BCC4356AB72E9 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+17.02.2020 15:03:42 A9057B77C8921E785B5BEB006E52D246 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-STK\SetupSUOSO-STK.exe
+17.02.2020 15:03:42 739EAC2DC7126380D693C18B122C2058 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+17.02.2020 15:03:42 02798F4800BD117FAAC834F912214A5F - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+17.02.2020 15:03:42 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\РМИ №5 (КСУ)\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+17.02.2020 15:03:42 C2A71277A1ADE7D861B407ABC76374FD - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupImOU\SetupImOU.exe
+17.02.2020 15:03:42 E70B2A00E4978AE289A0F7475A77F03A - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUIPDMM\SetupKSUIPDMM.exe
+17.02.2020 15:03:42 926F73639083DBD918CE12610CA4ECF3 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUMAIN\SetupKSUMAIN.exe
+17.02.2020 15:03:42 9C06836377AAC5C53A356B87D853A1DA - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupNetControlMain\SetupNetControlMain.exe
+17.02.2020 15:03:42 AC0DBFA32C4F7BC3EB06F2A5B610AB3B - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupPluginUDPInput\SetupPluginUDPInput.exe
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 6AECA14D3E8FD50ED5504CDC1A60A80E - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsKSU\SetupSignalsKSU.exe
+17.02.2020 15:03:42 57BF6322E94C230B34ED088F9CB60F81 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:03:42 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\РМИ №6 (КСУ)\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+17.02.2020 15:03:42 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №6 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 93A396D808FA875E24080A63B319BBEC - Бэкап дистрибутивов\РМИ №6 (КСУ)\XLSToArinc_setup\XLSToArinc_setup.exe
+17.02.2020 15:03:42 A0468BF994FAB1558A4F2DBC1127A475 - Бэкап дистрибутивов\РМП ПК№1\SetupCSO\SetupCSO.exe
+17.02.2020 15:03:42 9843B0955889BAD8DCA5181708DDBA63 - Бэкап дистрибутивов\РМП ПК№1\SetupPFD\SetupPFD.exe
+17.02.2020 15:03:42 1E9542F72F56E33405D0E81E8D64A1AB - Бэкап дистрибутивов\РМП ПК№1\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 E80F7809EB0F9D4DC006A8401B849A40 - Бэкап дистрибутивов\РМП ПК№1\SetupStarter\SetupStarter.exe
+17.02.2020 15:03:42 35B16B0FB1AE75DF4B30AE5A809B51C3 - Бэкап дистрибутивов\РМП ПК№2\SetupBRK\SetupBRK.exe
+17.02.2020 15:03:42 81317170683BDDF50836B09D12337B89 - Бэкап дистрибутивов\РМП ПК№2\SetupCASProxy\SetupCASProxy.exe
+17.02.2020 15:03:42 71AC64A26BC2B8465E0B04EEED202690 - Бэкап дистрибутивов\РМП ПК№2\SetupEWD\SetupEWD.exe
+17.02.2020 15:03:42 0E03AFD33989A51406E5EEAAB97F5901 - Бэкап дистрибутивов\РМП ПК№2\SetupFCS\SetupFCS.exe
+17.02.2020 15:03:42 DABA9DE005955EC0035B71EB358E2610 - Бэкап дистрибутивов\РМП ПК№2\SetupGearLever\SetupGearLever.exe
+17.02.2020 15:03:42 C00C7B59CF84AD54B843BE212F2413E1 - Бэкап дистрибутивов\РМП ПК№2\SetupHYD\SetupHYD.exe
+17.02.2020 15:03:42 3498921E35237BA67090655CEA5B46F6 - Бэкап дистрибутивов\РМП ПК№2\SetupPFD\SetupPFD.exe
+17.02.2020 15:03:42 2B57AF9A3B432ED8FFD3622EF2D80426 - Бэкап дистрибутивов\РМП ПК№2\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 F9518547CE04684795016AF7A2C856A5 - Бэкап дистрибутивов\РМП ПК№2\SetupScadeHost\SetupScadeHost.exe
+17.02.2020 15:03:42 21B4948E427961DFB46DC253E6F31FCF - Бэкап дистрибутивов\РМП ПК№2\SetupStarter\SetupStarter.exe
+17.02.2020 15:03:42 5F1AACC724560658F184E48567B24C98 - Бэкап дистрибутивов\РМП ПК№3\SetupBRK\SetupBRK.exe
+17.02.2020 15:03:42 CE5F88E5EDC07E2BD87D637A2B7149E1 - Бэкап дистрибутивов\РМП ПК№3\SetupCASProxy\SetupCASProxy.exe
+17.02.2020 15:03:42 268295BFAC3D5476A775311627070BC3 - Бэкап дистрибутивов\РМП ПК№3\SetupCSO\SetupCSO.exe
+17.02.2020 15:03:42 844730DF3CEE35EAF3F7F44C204C051C - Бэкап дистрибутивов\РМП ПК№3\SetupEWD\SetupEWD.exe
+17.02.2020 15:03:42 6732B99A87033B141759899541F151CA - Бэкап дистрибутивов\РМП ПК№3\SetupFCS\SetupFCS.exe
+17.02.2020 15:03:42 9C663744C1865403CFF524EFABD6B3D3 - Бэкап дистрибутивов\РМП ПК№3\SetupHYD\SetupHYD.exe
+17.02.2020 15:03:42 BF06E76DDD19E4397FBE4403A73F269C - Бэкап дистрибутивов\РМП ПК№3\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:03:42 415D9E15694AE0FBF6CF2BE6B0A0EC8E - Бэкап дистрибутивов\РМП ПК№3\SetupScadeHost\SetupScadeHost.exe
+17.02.2020 15:03:42 07C4B8532E2B2C43813A9B0C6950175C - Бэкап дистрибутивов\РМП ПК№3\SetupStarter\SetupStarter.exe
+17.02.2020 15:03:42 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМП Сервер (его вроде как убрали)\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:09:36 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG1\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:09:36 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG1\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG1\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 6B855EA4E6DCF966B747B43DD1DB1A57 - Бэкап дистрибутивов\REG1\SetupplgNetControl\SetupplgNetControl.exe
+17.02.2020 15:09:36 4FDB95F1DBDDB55C86EF42869B547837 - Бэкап дистрибутивов\REG1\SetupplgUDP_Input\SetupplgUDP_Input.exe
+17.02.2020 15:09:36 1F791F011ABEFA2649E2F170251BA8FD - Бэкап дистрибутивов\REG1\SetupREG1\SetupREG1.exe
+17.02.2020 15:09:36 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG2\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:09:36 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG2\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:09:36 1DE53F5107EB79B7B384083B1E047CDA - Бэкап дистрибутивов\REG2\plgNetControl\plgNetControl.exe
+17.02.2020 15:09:36 B7F987E8D6989A8A10B760CC2E347691 - Бэкап дистрибутивов\REG2\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG2\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 B81EBB022C31D29DF18D6E51D59C0E30 - Бэкап дистрибутивов\REG2\SetupREG2\SetupREG2.exe
+17.02.2020 15:09:36 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG3\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:09:36 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG3\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:09:36 A2E87F5A8D0565AF93FB64A2E7769918 - Бэкап дистрибутивов\REG3\plgNetControl\plgNetControl.exe
+17.02.2020 15:09:36 277AD76C5001797662D2A17A1D693775 - Бэкап дистрибутивов\REG3\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG3\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 9CA21E4EC69342F6A1E042700D9426EC - Бэкап дистрибутивов\REG3\SetupREG3\SetupREG3.exe
+17.02.2020 15:09:36 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG4\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:09:36 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG4\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:09:36 166969798ECCFFED0412A93314EAEC56 - Бэкап дистрибутивов\REG4\plgNetControl\plgNetControl.exe
+17.02.2020 15:09:36 A68B268B963E0966F6D4374D581F81D8 - Бэкап дистрибутивов\REG4\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG4\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 03729A9FF72E942A401759938204BA38 - Бэкап дистрибутивов\REG4\SetupREG4\SetupREG4.exe
+17.02.2020 15:09:36 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\REG5\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+17.02.2020 15:09:36 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\REG5\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+17.02.2020 15:09:36 8EAAA3C070BDEB4F6B8EF29173A818C1 - Бэкап дистрибутивов\REG5\plgNetControl\plgNetControl.exe
+17.02.2020 15:09:36 BB27EDC82AD3F9F53E5FA4B771C9BF63 - Бэкап дистрибутивов\REG5\plgUDP_Input\plgUDP_Input.exe
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\REG5\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 1573DD56D168846A646B47EA1C668B97 - Бэкап дистрибутивов\REG5\SetupREG5\SetupREG5.exe
+17.02.2020 15:09:36 E7DA4A361F6D7FE7004589786084E78C - Бэкап дистрибутивов\Базовое и покупное ПО\EsterelSCADE642\EsterelSCADE642.zip
+17.02.2020 15:09:36 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\Базовое и покупное ПО\rc_cleanup v1.1\rc_cleanup v1.1.exe
+17.02.2020 15:09:36 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+17.02.2020 15:09:36 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+17.02.2020 15:09:36 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+17.02.2020 15:09:36 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+17.02.2020 15:09:36 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+17.02.2020 15:09:36 3DB7497ED602D300DACFD332E70F816B - Бэкап дистрибутивов\Базовое и покупное ПО\SetupNIXNET1800\SetupNIXNET1800.exe
+17.02.2020 15:09:36 DCF77F67F583D93B22CE46103C3715C6 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-expert-client-setup\winpos-3.2.5.14-expert-client-setup.exe
+17.02.2020 15:09:36 2AA4DC4622977807B004C911515D5C81 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-server-setup\winpos-3.2.5.14-server-setup.exe
+17.02.2020 15:09:36 D1A2AEB7B5B74E12C9B1E206AC201ED8 - Бэкап дистрибутивов\ПК управления\SetupAircraftControl\SetupAircraftControl.exe
+17.02.2020 15:09:36 16A11346BF4C9C4F01256AED90A35A1E - Бэкап дистрибутивов\ПК управления\SetupAircraftControlRead\SetupAircraftControlRead.exe
+17.02.2020 15:09:36 826BE5BB791B5AA17A09ECE61B823F42 - Бэкап дистрибутивов\ПК управления\SetupAppManager\SetupAppManager.exe
+17.02.2020 15:09:36 4417868F8A9C59E5645120ECBFCC4169 - Бэкап дистрибутивов\ПК управления\SetupArinc-indicator\SetupArinc-indicator.exe
+17.02.2020 15:09:36 A6FBE2FB97B2DEE868A87760D7E77E23 - Бэкап дистрибутивов\ПК управления\SetupARINC-Tester\SetupARINC-Tester.exe
+17.02.2020 15:09:36 BFCFDF84DD7C1CBB57C167D1B57A301F - Бэкап дистрибутивов\ПК управления\SetupElcus-ARINC-tester\SetupElcus-ARINC-tester.exe
+17.02.2020 15:09:36 9ECC8E4B0F76E53A4C519D7C45AA43AE - Бэкап дистрибутивов\ПК управления\SetupElcusArincTest\SetupElcusArincTest.exe
+17.02.2020 15:09:36 BE3B32E62F27F289339EF1AA87CA768D - Бэкап дистрибутивов\ПК управления\SetupESS\SetupESS.exe
+17.02.2020 15:09:36 569B0E1396FE788D9B27FE7A201834B2 - Бэкап дистрибутивов\ПК управления\SetupHSctrl\SetupHSctrl.exe
+17.02.2020 15:09:36 3E95DC2C04AB943012314511802F8E14 - Бэкап дистрибутивов\ПК управления\SetupHSctrlBezOborotov\SetupHSctrlBezOborotov.exe
+17.02.2020 15:09:36 D17DCD57B6B78FD0882BA797BB48175A - Бэкап дистрибутивов\ПК управления\SetupKSUmain\SetupKSUmain.exe
+17.02.2020 15:09:36 75976648DDFDF8816811C6FC7B319224 - Бэкап дистрибутивов\ПК управления\SetupMan-switch-monitor\SetupMan-switch-monitor.exe
+17.02.2020 15:09:36 AD5BD8A9873FB9A0E6C8E5BE8A857DD9 - Бэкап дистрибутивов\ПК управления\SetupReverse\SetupReverse.exe
+17.02.2020 15:09:36 98B5A74DD82CBF74A295C26CC3451940 - Бэкап дистрибутивов\ПК управления\SetupRUVSH\SetupRUVSH.exe
+17.02.2020 15:09:36 C28B1EA8A32D5E76831DC325978F473A - Бэкап дистрибутивов\ПК управления\SetupShassiCtrl\SetupShassiCtrl.exe
+17.02.2020 15:09:36 8ECC8F84DC0D908A23332C06D5192CF8 - Бэкап дистрибутивов\ПК управления\SetupSignalsKSU\SetupSignalsKSU.exe
+17.02.2020 15:09:36 330BAE50E42FAAD09485E1274F5E57D0 - Бэкап дистрибутивов\ПК управления\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:09:36 D678E96F1DC5FFD85BDEDEB497538438 - Бэкап дистрибутивов\ПК управления\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+17.02.2020 15:09:36 E1EE3DD1D2A90FC6AC4EE60FB210572B - Бэкап дистрибутивов\ПК управления\SetupSMTDstate\SetupSMTDstate.exe
+17.02.2020 15:09:36 D8565BE796CD2137728A0385035C0040 - Бэкап дистрибутивов\ПК управления\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+17.02.2020 15:09:36 04DC5ACB833ECD292CE2DC4AC248E14B - Бэкап дистрибутивов\ПК управления\SetupSTKstate\SetupSTKstate.exe
+17.02.2020 15:09:36 58AE9C12535917305579BA5F41DA46DE - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+17.02.2020 15:09:36 F688B660434BB3DB88E40A53FBE61C93 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-STK\SetupSUOSO-STK.exe
+17.02.2020 15:09:36 93AE9EB07C652386F58E68AD498662A3 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+17.02.2020 15:09:36 D20590BCC3C95287EA0BACF3F8FD8CF8 - Бэкап дистрибутивов\ПК управления\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+17.02.2020 15:09:36 73365A5424227FD012EDB45AB4AB9EB2 - Бэкап дистрибутивов\ПК управления\SetupSUPKstate\SetupSUPKstate.exe
+17.02.2020 15:09:36 C0BDC8C8A57757B0DCA08B3C2031013E - Бэкап дистрибутивов\ПК управления\SetupTest-Relay-card\SetupTest-Relay-card.exe
+17.02.2020 15:09:36 C34C60AC9891367F590A636127DD0F4B - Бэкап дистрибутивов\ПК управления\SetupUTS\SetupUTS.exe
+17.02.2020 15:09:36 EA571E5FE37D9A1235FA909CBF5DD21B - Бэкап дистрибутивов\ПК управления\SetupUTSwin32\SetupUTSwin32.exe
+17.02.2020 15:09:36 11978D6EABE4DF7EB7F7855FA4F134EE - Бэкап дистрибутивов\ПК управления\SetupWOWControl\SetupWOWControl.exe
+17.02.2020 15:09:36 51C5D308CE17ABED6AB505810E5107C0 - Бэкап дистрибутивов\РМИ Динамики\SetupDynamicConfig\SetupDynamicConfig.exe
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:09:36 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+17.02.2020 15:09:36 A85CEF76A3ECC36D3DA4029E7970B093 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupCommutation\SetupCommutation.exe
+17.02.2020 15:09:36 551D72DC6D0E57D8F8C2327718E563F9 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemoCheck\SetupMnemoCheck.exe
+17.02.2020 15:09:36 8A31D5ACCEE74F9A589F752581540537 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemosh\SetupMnemosh.exe
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskSend\SetupRunTaskSend.exe
+17.02.2020 15:09:36 64C6A9E153B52457D78362DB90B3BAFE - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupSES\SetupSES.exe
+17.02.2020 15:09:36 0501236985D0789042461A5C54A8091D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGMU\SetupUKGMU.exe
+17.02.2020 15:09:36 20E18A368D2E880BEE866040FD641A4C - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGS\SetupUKGS.exe
+17.02.2020 15:09:36 7750BA2053B6219EAF7A74E7D7DA6E35 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKIPr\SetupUKIPr.exe
+17.02.2020 15:09:36 46FF98E3158D71FA4DC94EB739BF4E74 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKOU\SetupUKOU.exe
+17.02.2020 15:09:36 E4E7D6C59C6ADC8A58875761E2350C6D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKRUVSH\SetupUKRUVSH.exe
+17.02.2020 15:09:36 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\РМИ №2 (ГС)\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+17.02.2020 15:09:36 14AEAA4EEEFD3B3A5E6547DE0EF3B5FB - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupPanelGS\SetupPanelGS.exe
+17.02.2020 15:09:36 6ABEAD11AC13C870CB612A4C2963BB43 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupReverse\SetupReverse.exe
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+17.02.2020 15:09:36 B436D29F9EAD7BC0DA20A6E0FC52D4F8 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearCycle\SetupGearCycle.exe
+17.02.2020 15:09:36 1191688CDCF886AB258F15C124BAC17C - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearSensors\SetupGearSensors.exe
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 22F91FB25A04FBF105676F764D62E5C7 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupShassiObj\SetupShassiObj.exe
+17.02.2020 15:09:36 1D5E798D7D0F0A6E70F80F87BFB3AEB5 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:09:36 87E93EA5255DCEC8CC95B9F754F6E34E - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+17.02.2020 15:09:36 CCA49D2FCB51EA1DEF4589BD7A20717A - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+17.02.2020 15:09:36 4A3216B6A9519835ED4BCC4356AB72E9 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+17.02.2020 15:09:36 A9057B77C8921E785B5BEB006E52D246 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-STK\SetupSUOSO-STK.exe
+17.02.2020 15:09:36 739EAC2DC7126380D693C18B122C2058 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+17.02.2020 15:09:36 02798F4800BD117FAAC834F912214A5F - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+17.02.2020 15:09:36 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\РМИ №5 (КСУ)\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+17.02.2020 15:09:36 C2A71277A1ADE7D861B407ABC76374FD - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupImOU\SetupImOU.exe
+17.02.2020 15:09:36 E70B2A00E4978AE289A0F7475A77F03A - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUIPDMM\SetupKSUIPDMM.exe
+17.02.2020 15:09:36 926F73639083DBD918CE12610CA4ECF3 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUMAIN\SetupKSUMAIN.exe
+17.02.2020 15:09:36 9C06836377AAC5C53A356B87D853A1DA - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupNetControlMain\SetupNetControlMain.exe
+17.02.2020 15:09:36 AC0DBFA32C4F7BC3EB06F2A5B610AB3B - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupPluginUDPInput\SetupPluginUDPInput.exe
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 6AECA14D3E8FD50ED5504CDC1A60A80E - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsKSU\SetupSignalsKSU.exe
+17.02.2020 15:09:36 57BF6322E94C230B34ED088F9CB60F81 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+17.02.2020 15:09:36 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\РМИ №6 (КСУ)\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+17.02.2020 15:09:36 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМИ №6 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 93A396D808FA875E24080A63B319BBEC - Бэкап дистрибутивов\РМИ №6 (КСУ)\XLSToArinc_setup\XLSToArinc_setup.exe
+17.02.2020 15:09:36 A0468BF994FAB1558A4F2DBC1127A475 - Бэкап дистрибутивов\РМП ПК№1\SetupCSO\SetupCSO.exe
+17.02.2020 15:09:36 9843B0955889BAD8DCA5181708DDBA63 - Бэкап дистрибутивов\РМП ПК№1\SetupPFD\SetupPFD.exe
+17.02.2020 15:09:36 1E9542F72F56E33405D0E81E8D64A1AB - Бэкап дистрибутивов\РМП ПК№1\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 E80F7809EB0F9D4DC006A8401B849A40 - Бэкап дистрибутивов\РМП ПК№1\SetupStarter\SetupStarter.exe
+17.02.2020 15:09:36 35B16B0FB1AE75DF4B30AE5A809B51C3 - Бэкап дистрибутивов\РМП ПК№2\SetupBRK\SetupBRK.exe
+17.02.2020 15:09:36 81317170683BDDF50836B09D12337B89 - Бэкап дистрибутивов\РМП ПК№2\SetupCASProxy\SetupCASProxy.exe
+17.02.2020 15:09:36 71AC64A26BC2B8465E0B04EEED202690 - Бэкап дистрибутивов\РМП ПК№2\SetupEWD\SetupEWD.exe
+17.02.2020 15:09:36 0E03AFD33989A51406E5EEAAB97F5901 - Бэкап дистрибутивов\РМП ПК№2\SetupFCS\SetupFCS.exe
+17.02.2020 15:09:36 DABA9DE005955EC0035B71EB358E2610 - Бэкап дистрибутивов\РМП ПК№2\SetupGearLever\SetupGearLever.exe
+17.02.2020 15:09:36 C00C7B59CF84AD54B843BE212F2413E1 - Бэкап дистрибутивов\РМП ПК№2\SetupHYD\SetupHYD.exe
+17.02.2020 15:09:36 3498921E35237BA67090655CEA5B46F6 - Бэкап дистрибутивов\РМП ПК№2\SetupPFD\SetupPFD.exe
+17.02.2020 15:09:36 2B57AF9A3B432ED8FFD3622EF2D80426 - Бэкап дистрибутивов\РМП ПК№2\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 F9518547CE04684795016AF7A2C856A5 - Бэкап дистрибутивов\РМП ПК№2\SetupScadeHost\SetupScadeHost.exe
+17.02.2020 15:09:36 21B4948E427961DFB46DC253E6F31FCF - Бэкап дистрибутивов\РМП ПК№2\SetupStarter\SetupStarter.exe
+17.02.2020 15:09:36 5F1AACC724560658F184E48567B24C98 - Бэкап дистрибутивов\РМП ПК№3\SetupBRK\SetupBRK.exe
+17.02.2020 15:09:36 CE5F88E5EDC07E2BD87D637A2B7149E1 - Бэкап дистрибутивов\РМП ПК№3\SetupCASProxy\SetupCASProxy.exe
+17.02.2020 15:09:36 268295BFAC3D5476A775311627070BC3 - Бэкап дистрибутивов\РМП ПК№3\SetupCSO\SetupCSO.exe
+17.02.2020 15:09:36 844730DF3CEE35EAF3F7F44C204C051C - Бэкап дистрибутивов\РМП ПК№3\SetupEWD\SetupEWD.exe
+17.02.2020 15:09:36 6732B99A87033B141759899541F151CA - Бэкап дистрибутивов\РМП ПК№3\SetupFCS\SetupFCS.exe
+17.02.2020 15:09:36 9C663744C1865403CFF524EFABD6B3D3 - Бэкап дистрибутивов\РМП ПК№3\SetupHYD\SetupHYD.exe
+17.02.2020 15:09:36 BF06E76DDD19E4397FBE4403A73F269C - Бэкап дистрибутивов\РМП ПК№3\SetupRunTaskReceive\SetupRunTaskReceive.exe
+17.02.2020 15:09:36 415D9E15694AE0FBF6CF2BE6B0A0EC8E - Бэкап дистрибутивов\РМП ПК№3\SetupScadeHost\SetupScadeHost.exe
+17.02.2020 15:09:36 07C4B8532E2B2C43813A9B0C6950175C - Бэкап дистрибутивов\РМП ПК№3\SetupStarter\SetupStarter.exe
+17.02.2020 15:09:36 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМП Сервер (его вроде как убрали)\SetupRunTaskSend\SetupRunTaskSend.exe
+18.02.2020 9:59:35 EF70BB91FE594EBA76959F2F9D9A625D - Бэкап дистрибутивов\REG1\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+18.02.2020 9:59:35 A0270EBA9CCC38BD32C5775D44FA0F20 - Бэкап дистрибутивов\REG1\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+18.02.2020 9:59:35 7188DDE981DB03393FAEE793EE343DF3 - Бэкап дистрибутивов\REG1\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 946E13F638CEED0F6455D8DE7E48BAA0 - Бэкап дистрибутивов\REG1\SetupplgNetControl\SetupplgNetControl.exe
+18.02.2020 9:59:35 6E1E990CF1BC529EF56C7320EB96B510 - Бэкап дистрибутивов\REG1\SetupplgUDP_Input\SetupplgUDP_Input.exe
+18.02.2020 9:59:35 D49D62D0A3C8FCA825CFA833E36903D6 - Бэкап дистрибутивов\REG1\SetupREG1\SetupREG1.exe
+18.02.2020 9:59:35 FC2054444A73D36E09D8DCBAA0376F61 - Бэкап дистрибутивов\REG2\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+18.02.2020 9:59:35 C6F8AC1C819AB8BA413A8111C699BDCE - Бэкап дистрибутивов\REG2\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+18.02.2020 9:59:35 FEEF39C125D15E63E21F40FFC3A2EDA0 - Бэкап дистрибутивов\REG2\plgNetControl\plgNetControl.exe
+18.02.2020 9:59:35 D9E2F430AC76E4C2278F6B40CC5D665B - Бэкап дистрибутивов\REG2\plgUDP_Input\plgUDP_Input.exe
+18.02.2020 9:59:35 BD8BA5F90C92C3747702081E4718B9CE - Бэкап дистрибутивов\REG2\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 ECEBFD156A774AA5A010DEFFDA751F6F - Бэкап дистрибутивов\REG2\SetupREG2\SetupREG2.exe
+18.02.2020 9:59:35 57C825038221E9F754382DB3BAFE3241 - Бэкап дистрибутивов\REG3\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+18.02.2020 9:59:35 8EF638184D8D289E1868C9BE677D2219 - Бэкап дистрибутивов\REG3\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+18.02.2020 9:59:35 97E1A630CBE70DD589E67ACF331DD717 - Бэкап дистрибутивов\REG3\plgNetControl\plgNetControl.exe
+18.02.2020 9:59:35 E78E3364C079FAA9DF48BA2045E2FBB0 - Бэкап дистрибутивов\REG3\plgUDP_Input\plgUDP_Input.exe
+18.02.2020 9:59:35 49163B95B697EA6C6599948C2A2F3EFD - Бэкап дистрибутивов\REG3\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 8486F25F4846ADC8B451C390D095AD3E - Бэкап дистрибутивов\REG3\SetupREG3\SetupREG3.exe
+18.02.2020 9:59:35 5D080850490A86F872EC3D509DACBF62 - Бэкап дистрибутивов\REG4\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+18.02.2020 9:59:35 D62531307E322D6BDF2166EE0F69965F - Бэкап дистрибутивов\REG4\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+18.02.2020 9:59:35 F2F8AD88DE2BC34B2E27BAC989E2E962 - Бэкап дистрибутивов\REG4\plgNetControl\plgNetControl.exe
+18.02.2020 9:59:35 B75B4F9DA1C796C3526B96A816B53920 - Бэкап дистрибутивов\REG4\plgUDP_Input\plgUDP_Input.exe
+18.02.2020 9:59:35 3F88550E73F6BA8C8C5F1B75C08F813D - Бэкап дистрибутивов\REG4\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 AAFC176E458BE1873C014BE0972739F4 - Бэкап дистрибутивов\REG4\SetupREG4\SetupREG4.exe
+18.02.2020 9:59:35 9D75EFD1AD835BCABBA392C98C797E28 - Бэкап дистрибутивов\REG5\arinc429.setup.1.0.0.16\arinc429.setup.1.0.0.16.exe
+18.02.2020 9:59:35 2E1A6C598BA51D1F948A1F00BDE31A88 - Бэкап дистрибутивов\REG5\opccomplg.setup.1.0.0.30_mf\opccomplg.setup.1.0.0.30_mf.exe
+18.02.2020 9:59:35 357DAE2F5FB63E879CC3D702B6E5F4ED - Бэкап дистрибутивов\REG5\plgNetControl\plgNetControl.exe
+18.02.2020 9:59:35 7F421CF67E16CE5757EBA97B05F0EE8A - Бэкап дистрибутивов\REG5\plgUDP_Input\plgUDP_Input.exe
+18.02.2020 9:59:35 834E6C464AA5B22E4B31DC81FE8F8920 - Бэкап дистрибутивов\REG5\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 6FC0992333EA33A0B8D88254091C1B39 - Бэкап дистрибутивов\REG5\SetupREG5\SetupREG5.exe
+18.02.2020 9:59:35 148E5E6633E7D6762726FDDB4001FBBE - Бэкап дистрибутивов\Базовое и покупное ПО\EsterelSCADE642\EsterelSCADE642.zip
+18.02.2020 9:59:35 43956766D8FB8B4F11E3567BF1CCFC9D - Бэкап дистрибутивов\Базовое и покупное ПО\rc_cleanup v1.1\rc_cleanup v1.1.exe
+18.02.2020 9:59:35 3701F7E848F900436FCE811DF1B6BFA8 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+18.02.2020 9:59:35 174360D39AB08E323DDE4C05F18B9575 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+18.02.2020 9:59:35 D720D6ABFAC8B0D06CEB20ACEDCB264A - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+18.02.2020 9:59:35 C4181A494D12AA3F17986227149629FA - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+18.02.2020 9:59:35 1D1411F628D582E3B2234ECAA7D5CA82 - Бэкап дистрибутивов\Базовое и покупное ПО\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+18.02.2020 9:59:35 5FE5206E13B2865FC1F99D480A35DB98 - Бэкап дистрибутивов\Базовое и покупное ПО\SetupNIXNET1800\SetupNIXNET1800.exe
+18.02.2020 9:59:35 12201D48693911950DCE98F8F1AA6B14 - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-expert-client-setup\winpos-3.2.5.14-expert-client-setup.exe
+18.02.2020 9:59:35 E841E29A50FC170394D7011F0E5938DF - Бэкап дистрибутивов\Базовое и покупное ПО\winpos-3.2.5.14-server-setup\winpos-3.2.5.14-server-setup.exe
+18.02.2020 9:59:35 5BBD733F3BAD7F4F788AE554DBB580F3 - Бэкап дистрибутивов\ПК управления\SetupAircraftControl\SetupAircraftControl.exe
+18.02.2020 9:59:35 E1FA5F8C7FA949D67543E42FAA8CDA02 - Бэкап дистрибутивов\ПК управления\SetupAircraftControlRead\SetupAircraftControlRead.exe
+18.02.2020 9:59:35 0FEB93B61B16B998FE8B7EC25F825DA6 - Бэкап дистрибутивов\ПК управления\SetupAppManager\SetupAppManager.exe
+18.02.2020 9:59:35 FCE4ED3579E43E7213E552C7F82BC577 - Бэкап дистрибутивов\ПК управления\SetupArinc-indicator\SetupArinc-indicator.exe
+18.02.2020 9:59:35 7B396C1003E5F2CEE512EAC1DC23C431 - Бэкап дистрибутивов\ПК управления\SetupARINC-Tester\SetupARINC-Tester.exe
+18.02.2020 9:59:35 CD2E36B13809E81ECFBBD6218BD51296 - Бэкап дистрибутивов\ПК управления\SetupElcus-ARINC-tester\SetupElcus-ARINC-tester.exe
+18.02.2020 9:59:35 7B2C06DAF8F242B40E2F6CCDAA5F2C25 - Бэкап дистрибутивов\ПК управления\SetupElcusArincTest\SetupElcusArincTest.exe
+18.02.2020 9:59:35 78CE7FC2E7683F26AF11B9FF64A18F74 - Бэкап дистрибутивов\ПК управления\SetupESS\SetupESS.exe
+18.02.2020 9:59:35 7BB8B37A975A24FAB45BA849D12914F9 - Бэкап дистрибутивов\ПК управления\SetupHSctrl\SetupHSctrl.exe
+18.02.2020 9:59:35 D5D66F3D0CBFF10F7CC36A381DA9A539 - Бэкап дистрибутивов\ПК управления\SetupHSctrlBezOborotov\SetupHSctrlBezOborotov.exe
+18.02.2020 9:59:35 8A8DFE2DB431A14AE0F54D3F5C16AF44 - Бэкап дистрибутивов\ПК управления\SetupKSUmain\SetupKSUmain.exe
+18.02.2020 9:59:35 D5DDC62F635BF456B84D08A27FD49C7E - Бэкап дистрибутивов\ПК управления\SetupMan-switch-monitor\SetupMan-switch-monitor.exe
+18.02.2020 9:59:35 862A621EAC25E8FF25A338CB88C43C9C - Бэкап дистрибутивов\ПК управления\SetupReverse\SetupReverse.exe
+18.02.2020 9:59:35 0D39928F57C82E99A853199CA1913A1B - Бэкап дистрибутивов\ПК управления\SetupRUVSH\SetupRUVSH.exe
+18.02.2020 9:59:35 FF3126EE3F6D755705A7D7060B789FE4 - Бэкап дистрибутивов\ПК управления\SetupShassiCtrl\SetupShassiCtrl.exe
+18.02.2020 9:59:35 183CEB136C5B401CE09D30E67D572CE7 - Бэкап дистрибутивов\ПК управления\SetupSignalsKSU\SetupSignalsKSU.exe
+18.02.2020 9:59:35 BC36D33236182CBB8026C123C56BE2B3 - Бэкап дистрибутивов\ПК управления\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+18.02.2020 9:59:35 288EE6E7C752ABE21E9217CDAE59961D - Бэкап дистрибутивов\ПК управления\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+18.02.2020 9:59:35 9E4A0A7688D205E2FC59A1A9B80522FC - Бэкап дистрибутивов\ПК управления\SetupSMTDstate\SetupSMTDstate.exe
+18.02.2020 9:59:35 512BD7102DB3E6016D0A427940AFEC98 - Бэкап дистрибутивов\ПК управления\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+18.02.2020 9:59:35 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\ПК управления\SetupSTKstate\SetupSTKstate.exe
+18.02.2020 9:59:35 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-STK\SetupSUOSO-STK.exe
+18.02.2020 9:59:35 6B855EA4E6DCF966B747B43DD1DB1A57 - Бэкап дистрибутивов\ПК управления\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+18.02.2020 9:59:35 4FDB95F1DBDDB55C86EF42869B547837 - Бэкап дистрибутивов\ПК управления\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+18.02.2020 9:59:35 1F791F011ABEFA2649E2F170251BA8FD - Бэкап дистрибутивов\ПК управления\SetupSUPKstate\SetupSUPKstate.exe
+18.02.2020 9:59:35 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\ПК управления\SetupTest-Relay-card\SetupTest-Relay-card.exe
+18.02.2020 9:59:35 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\ПК управления\SetupUTS\SetupUTS.exe
+18.02.2020 9:59:35 1DE53F5107EB79B7B384083B1E047CDA - Бэкап дистрибутивов\ПК управления\SetupUTSwin32\SetupUTSwin32.exe
+18.02.2020 9:59:35 B7F987E8D6989A8A10B760CC2E347691 - Бэкап дистрибутивов\ПК управления\SetupWOWControl\SetupWOWControl.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\РМИ Динамики\SetupDynamicConfig\SetupDynamicConfig.exe
+18.02.2020 9:59:35 B81EBB022C31D29DF18D6E51D59C0E30 - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\РМИ Динамики\SetupRunTaskSend\SetupRunTaskSend.exe
+18.02.2020 9:59:35 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SCADA 3.6(30002853_5390)_14_08_21_11_11\SCADA 3.6(30002853_5390)_14_08_21_11_11.zip
+18.02.2020 9:59:35 A2E87F5A8D0565AF93FB64A2E7769918 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupCommutation\SetupCommutation.exe
+18.02.2020 9:59:35 277AD76C5001797662D2A17A1D693775 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemoCheck\SetupMnemoCheck.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupMnemosh\SetupMnemosh.exe
+18.02.2020 9:59:35 9CA21E4EC69342F6A1E042700D9426EC - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupRunTaskSend\SetupRunTaskSend.exe
+18.02.2020 9:59:35 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupSES\SetupSES.exe
+18.02.2020 9:59:35 166969798ECCFFED0412A93314EAEC56 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGMU\SetupUKGMU.exe
+18.02.2020 9:59:35 A68B268B963E0966F6D4374D581F81D8 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKGS\SetupUKGS.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKIPr\SetupUKIPr.exe
+18.02.2020 9:59:35 03729A9FF72E942A401759938204BA38 - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKOU\SetupUKOU.exe
+18.02.2020 9:59:35 FECAE640E2803D909DD5BED9D1832A3D - Бэкап дистрибутивов\РМИ №1 (Ведущего испытателя)\SetupUKRUVSH\SetupUKRUVSH.exe
+18.02.2020 9:59:35 E5ADE062F62C702C28ABCD9C66C7E3C3 - Бэкап дистрибутивов\РМИ №2 (ГС)\SCADA 3.5(30002855_5390)_12_10_22_15_29\SCADA 3.5(30002855_5390)_12_10_22_15_29.zip
+18.02.2020 9:59:35 8EAAA3C070BDEB4F6B8EF29173A818C1 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupPanelGS\SetupPanelGS.exe
+18.02.2020 9:59:35 BB27EDC82AD3F9F53E5FA4B771C9BF63 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupReverse\SetupReverse.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\РМИ №2 (ГС)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 1573DD56D168846A646B47EA1C668B97 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SCADA 3.5(30002854_5390)_12_10_22_15_08\SCADA 3.5(30002854_5390)_12_10_22_15_08.zip
+18.02.2020 9:59:35 E7DA4A361F6D7FE7004589786084E78C - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearCycle\SetupGearCycle.exe
+18.02.2020 9:59:35 7AC9B4DF00833F2526EF9B2F353A5479 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupGearSensors\SetupGearSensors.exe
+18.02.2020 9:59:35 6C55ED7E5C6A617745B5743E4F3293F1 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 237C5FBC17EA13C42137210D83BAB31D - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupShassiObj\SetupShassiObj.exe
+18.02.2020 9:59:35 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+18.02.2020 9:59:35 DF228039CF7ADCC038C97B4574C93ADB - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSMTD-SUOSO\SetupSMTD-SUOSO.exe
+18.02.2020 9:59:35 F7252F538DC4CE232928E243DB53F33D - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSTK-SUOSO\SetupSTK-SUOSO.exe
+18.02.2020 9:59:35 3DB7497ED602D300DACFD332E70F816B - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SMTD\SetupSUOSO-SMTD.exe
+18.02.2020 9:59:35 DCF77F67F583D93B22CE46103C3715C6 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-STK\SetupSUOSO-STK.exe
+18.02.2020 9:59:35 2AA4DC4622977807B004C911515D5C81 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUOSO-SUPK\SetupSUOSO-SUPK.exe
+18.02.2020 9:59:35 D1A2AEB7B5B74E12C9B1E206AC201ED8 - Бэкап дистрибутивов\РМИ №3 (Шасси)\SetupSUPK-SUOSO\SetupSUPK-SUOSO.exe
+18.02.2020 9:59:35 16A11346BF4C9C4F01256AED90A35A1E - Бэкап дистрибутивов\РМИ №5 (КСУ)\SCADA 3.6(30005201_5390)_14_08_21_11_17\SCADA 3.6(30005201_5390)_14_08_21_11_17.zip
+18.02.2020 9:59:35 826BE5BB791B5AA17A09ECE61B823F42 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupImOU\SetupImOU.exe
+18.02.2020 9:59:35 4417868F8A9C59E5645120ECBFCC4169 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUIPDMM\SetupKSUIPDMM.exe
+18.02.2020 9:59:35 A6FBE2FB97B2DEE868A87760D7E77E23 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupKSUMAIN\SetupKSUMAIN.exe
+18.02.2020 9:59:35 BFCFDF84DD7C1CBB57C167D1B57A301F - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupNetControlMain\SetupNetControlMain.exe
+18.02.2020 9:59:35 9ECC8E4B0F76E53A4C519D7C45AA43AE - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupPluginUDPInput\SetupPluginUDPInput.exe
+18.02.2020 9:59:35 BE3B32E62F27F289339EF1AA87CA768D - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 569B0E1396FE788D9B27FE7A201834B2 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsKSU\SetupSignalsKSU.exe
+18.02.2020 9:59:35 3E95DC2C04AB943012314511802F8E14 - Бэкап дистрибутивов\РМИ №5 (КСУ)\SetupSignalsSUOSO\SetupSignalsSUOSO.exe
+18.02.2020 9:59:35 D17DCD57B6B78FD0882BA797BB48175A - Бэкап дистрибутивов\РМИ №6 (КСУ)\SCADA 3.6(30005202_5390)_14_08_21_11_18\SCADA 3.6(30005202_5390)_14_08_21_11_18.zip
+18.02.2020 9:59:35 75976648DDFDF8816811C6FC7B319224 - Бэкап дистрибутивов\РМИ №6 (КСУ)\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 AD5BD8A9873FB9A0E6C8E5BE8A857DD9 - Бэкап дистрибутивов\РМИ №6 (КСУ)\XLSToArinc_setup\XLSToArinc_setup.exe
+18.02.2020 9:59:35 98B5A74DD82CBF74A295C26CC3451940 - Бэкап дистрибутивов\РМП ПК№1\SetupCSO\SetupCSO.exe
+18.02.2020 9:59:35 C28B1EA8A32D5E76831DC325978F473A - Бэкап дистрибутивов\РМП ПК№1\SetupPFD\SetupPFD.exe
+18.02.2020 9:59:35 8ECC8F84DC0D908A23332C06D5192CF8 - Бэкап дистрибутивов\РМП ПК№1\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 330BAE50E42FAAD09485E1274F5E57D0 - Бэкап дистрибутивов\РМП ПК№1\SetupStarter\SetupStarter.exe
+18.02.2020 9:59:35 D678E96F1DC5FFD85BDEDEB497538438 - Бэкап дистрибутивов\РМП ПК№2\SetupBRK\SetupBRK.exe
+18.02.2020 9:59:35 E1EE3DD1D2A90FC6AC4EE60FB210572B - Бэкап дистрибутивов\РМП ПК№2\SetupCASProxy\SetupCASProxy.exe
+18.02.2020 9:59:35 D8565BE796CD2137728A0385035C0040 - Бэкап дистрибутивов\РМП ПК№2\SetupEWD\SetupEWD.exe
+18.02.2020 9:59:35 04DC5ACB833ECD292CE2DC4AC248E14B - Бэкап дистрибутивов\РМП ПК№2\SetupFCS\SetupFCS.exe
+18.02.2020 9:59:35 58AE9C12535917305579BA5F41DA46DE - Бэкап дистрибутивов\РМП ПК№2\SetupGearLever\SetupGearLever.exe
+18.02.2020 9:59:35 F688B660434BB3DB88E40A53FBE61C93 - Бэкап дистрибутивов\РМП ПК№2\SetupHYD\SetupHYD.exe
+18.02.2020 9:59:35 93AE9EB07C652386F58E68AD498662A3 - Бэкап дистрибутивов\РМП ПК№2\SetupPFD\SetupPFD.exe
+18.02.2020 9:59:35 D20590BCC3C95287EA0BACF3F8FD8CF8 - Бэкап дистрибутивов\РМП ПК№2\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 73365A5424227FD012EDB45AB4AB9EB2 - Бэкап дистрибутивов\РМП ПК№2\SetupScadeHost\SetupScadeHost.exe
+18.02.2020 9:59:35 C0BDC8C8A57757B0DCA08B3C2031013E - Бэкап дистрибутивов\РМП ПК№2\SetupStarter\SetupStarter.exe
+18.02.2020 9:59:35 C34C60AC9891367F590A636127DD0F4B - Бэкап дистрибутивов\РМП ПК№3\SetupBRK\SetupBRK.exe
+18.02.2020 9:59:35 EA571E5FE37D9A1235FA909CBF5DD21B - Бэкап дистрибутивов\РМП ПК№3\SetupCASProxy\SetupCASProxy.exe
+18.02.2020 9:59:35 11978D6EABE4DF7EB7F7855FA4F134EE - Бэкап дистрибутивов\РМП ПК№3\SetupCSO\SetupCSO.exe
+18.02.2020 9:59:35 51C5D308CE17ABED6AB505810E5107C0 - Бэкап дистрибутивов\РМП ПК№3\SetupEWD\SetupEWD.exe
+18.02.2020 9:59:35 11094829EA1567515CA54981AB487470 - Бэкап дистрибутивов\РМП ПК№3\SetupFCS\SetupFCS.exe
+18.02.2020 9:59:35 B91E5036568B6D8E48FD7935430270D5 - Бэкап дистрибутивов\РМП ПК№3\SetupHYD\SetupHYD.exe
+18.02.2020 9:59:35 30C0D3192CED5271EDAD919C414D2316 - Бэкап дистрибутивов\РМП ПК№3\SetupRunTaskReceive\SetupRunTaskReceive.exe
+18.02.2020 9:59:35 A85CEF76A3ECC36D3DA4029E7970B093 - Бэкап дистрибутивов\РМП ПК№3\SetupScadeHost\SetupScadeHost.exe
+18.02.2020 9:59:35 551D72DC6D0E57D8F8C2327718E563F9 - Бэкап дистрибутивов\РМП ПК№3\SetupStarter\SetupStarter.exe
+18.02.2020 9:59:35 8A31D5ACCEE74F9A589F752581540537 - Бэкап дистрибутивов\РМП Сервер (его вроде как убрали)\SetupRunTaskSend\SetupRunTaskSend.exe
