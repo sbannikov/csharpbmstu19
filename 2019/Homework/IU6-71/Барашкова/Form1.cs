@@ -13,7 +13,7 @@ namespace WindowDZ
 {
     public partial class Form1 : Form
     {
-        string named,surnamed;
+        string named, surnamed;
         int aged;
         string gender, conc;
         public Form1()
@@ -28,22 +28,22 @@ namespace WindowDZ
 
         private void surname_TextChanged(object sender, EventArgs e)
         {
-       
+
         }
 
         private void age_ValueChanged(object sender, EventArgs e)
         {
-            
-    }
+
+        }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string sql, Output="";
+            string sql, Output = "";
             SqlCommand command;
             SqlDataReader dataRead;
             if ((name.Text == "") || (surname.Text == "") || (age.Value == 0))
@@ -56,22 +56,22 @@ namespace WindowDZ
                 if (radioButton1.Checked)
                 { gender = "Мужской"; }
                 else { gender = "Женский"; }
-                conc = surnamed +", "+ named +", "+ aged.ToString() +", "+ gender;
+                conc = $"'{surnamed}', '{named}', {aged}, '{gender}'";
                 MessageBox.Show(conc, "Запись в БД");
                 string connetionString;
                 SqlConnection cnn;
-                connetionString = @"Data Source=*datasourse*;Initial Catalog=*incat*;User ID=*user*;Password=*pass*";
+                connetionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=TEST;Integrated Security=True;";
                 cnn = new SqlConnection(connetionString);
                 cnn.Open();
-                sql = "insert into *db_name* (name, surname, age, gender) values" + "(" +conc+ ")";
+                sql = "insert into [User] (name, surname, age, gender) values" + "(" + conc + ")";
                 command = new SqlCommand(sql, cnn);
-                dataRead = command.ExecuteReader();
-                sql = "Select id,name,surname,age,gender";
+                int count = command.ExecuteNonQuery();
+                sql = "Select id,name,surname,age,gender from [user]";
                 command = new SqlCommand(sql, cnn);
                 dataRead = command.ExecuteReader();
                 while (dataRead.Read())
                 {
-                    Output = Output + dataRead.GetValue(0) + ", " + "\n";
+                    Output = Output + dataRead.GetValue(1) + ", " + "\n";
                 }
                 MessageBox.Show(Output);
                 cnn.Close();
@@ -80,7 +80,7 @@ namespace WindowDZ
 
         private void name_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
